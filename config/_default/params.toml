@@ -1,28 +1,26 @@
-colorScheme = "ocean"
-defaultAppearance = "dark"
+# 主题颜色方案：congo(默认绿)/ avocado / ocean / fire / slate / sandstone / sunrise
+colorScheme = "slate"
+defaultAppearance = "light"
 autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
-showScrollToTop = true
-
+[footer]
+  showScrollToTop = true
 mainSections = ["posts"]
 robots = "index, follow"
 
 [homepage]
   layout = "card"
-  homepageImage = ""
   showRecent = true
-  showRecentItems = 5
+  showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = true
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = false
+  groupByYear = false
 
 [article]
   showDate = true
-  showDateUpdated = false
   showAuthor = true
   showReadingTime = true
   showTableOfContents = true
@@ -38,8 +36,3 @@ robots = "index, follow"
 
 [sitemap]
   excludedKinds = []
-
-[taxonomy]
-  showTermCount = true
-  showHero = false
-  cardView = true

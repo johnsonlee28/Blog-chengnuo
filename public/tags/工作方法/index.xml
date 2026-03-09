@@ -1,40 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工作方法 on 知行社</title><link>https://blog.zhixingshe.cc/tags/%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%B3%95/</link><description>Recent content in 工作方法 on 知行社</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>© 2026</copyright><lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zhixingshe.cc/tags/%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>如何给 AI 建立一个灵魂</title><link>https://blog.zhixingshe.cc/posts/%E5%A6%82%E4%BD%95%E7%BB%99ai%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E7%81%B5%E9%AD%82/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.zhixingshe.cc/posts/%E5%A6%82%E4%BD%95%E7%BB%99ai%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E7%81%B5%E9%AD%82/</guid><description>&lt;h2 class="relative group">【00】同一个问题，两种完全不同的回答
- &lt;div id="00同一个问题两种完全不同的回答" class="anchor">&lt;/div>
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#00%e5%90%8c%e4%b8%80%e4%b8%aa%e9%97%ae%e9%a2%98%e4%b8%a4%e7%a7%8d%e5%ae%8c%e5%85%a8%e4%b8%8d%e5%90%8c%e7%9a%84%e5%9b%9e%e7%ad%94" aria-label="Anchor">#&lt;/a>
- &lt;/span>
- 
-&lt;/h2>
-&lt;p>凌晨两点。老板打开 ChatGPT，打了一行字：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工作方法 on 知行社</title><link>https://blog.zhixingshe.cc/tags/%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%B3%95/</link><description>Recent content in 工作方法 on 知行社</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.zhixingshe.cc/tags/%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml"/><item><title>如何给 AI 建立一个灵魂</title><link>https://blog.zhixingshe.cc/posts/%E5%A6%82%E4%BD%95%E7%BB%99ai%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E7%81%B5%E9%AD%82/</link><pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate><guid>https://blog.zhixingshe.cc/posts/%E5%A6%82%E4%BD%95%E7%BB%99ai%E5%BB%BA%E7%AB%8B%E4%B8%80%E4%B8%AA%E7%81%B5%E9%AD%82/</guid><description>&lt;h2 id="00同一个问题两种完全不同的回答" class="relative group">【00】同一个问题，两种完全不同的回答 &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#00%e5%90%8c%e4%b8%80%e4%b8%aa%e9%97%ae%e9%a2%98%e4%b8%a4%e7%a7%8d%e5%ae%8c%e5%85%a8%e4%b8%8d%e5%90%8c%e7%9a%84%e5%9b%9e%e7%ad%94" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>凌晨两点。老板打开 ChatGPT，打了一行字：&lt;/p>
 &lt;p>&amp;ldquo;帮我写封邮件给投资人，解释这个月数据为啥跌了。&amp;rdquo;&lt;/p>
 &lt;p>AI 回了一封邮件。用词讲究，条理清楚，找不到毛病。&lt;/p>
 &lt;p>老板看了五秒，全选，删掉。&lt;/p>
 &lt;p>为啥？&lt;strong>这封邮件换谁都能写。&lt;/strong> 太端着了。没脾气，没个性，没有那股&amp;quot;数据是不好看，但老子还在牌桌上&amp;quot;的劲儿。&lt;/p>
 &lt;p>再看另一个老板。同一个问题，问的是自己的 AI 助手。&lt;/p>
 &lt;p>AI 回的开头是这样的：&lt;/p>
-&lt;blockquote>&lt;p>&amp;ldquo;David，你上次说最烦听到&amp;rsquo;尽管面临挑战&amp;rsquo;这种废话，所以直接上数据——&amp;rdquo;&lt;/p>&lt;/blockquote>&lt;p>老板看了两秒，改了个标点，发了。&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;David，你上次说最烦听到&amp;rsquo;尽管面临挑战&amp;rsquo;这种废话，所以直接上数据——&amp;rdquo;&lt;/p>&lt;/blockquote>
+&lt;p>老板看了两秒，改了个标点，发了。&lt;/p>
 &lt;p>&lt;strong>差在哪？&lt;/strong>&lt;/p>
 &lt;p>第一个 AI 是个工具。每次聊天都跟头一回见面一样。不记得你烦什么词，不知道你上周说了啥，更不知道你见投资人的时候是硬气还是客气。&lt;/p>
 &lt;p>第二个 AI 不一样。它知道自己是谁，知道老板是谁，记得之前聊过什么，还能根据这些做判断。&lt;/p>
 &lt;p>&lt;strong>打个比方：没有灵魂的 AI，像一把好刀。有灵魂的 AI，像一个人——知道什么时候递刀，什么时候收刀。&lt;/strong>&lt;/p>
 &lt;p>这篇文章就说一件事：怎么把一把刀，变成一个人。&lt;/p>
 &lt;hr>
-
-&lt;h2 class="relative group">【01】为什么 AI 需要灵魂？
- &lt;div id="01为什么-ai-需要灵魂" class="anchor">&lt;/div>
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#01%e4%b8%ba%e4%bb%80%e4%b9%88-ai-%e9%9c%80%e8%a6%81%e7%81%b5%e9%ad%82" aria-label="Anchor">#&lt;/a>
- &lt;/span>
- 
-&lt;/h2>
-&lt;p>先说说&amp;quot;没灵魂&amp;quot;是什么感受。&lt;/p>
+&lt;h2 id="01为什么-ai-需要灵魂" class="relative group">【01】为什么 AI 需要灵魂？ &lt;span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100">&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#01%e4%b8%ba%e4%bb%80%e4%b9%88-ai-%e9%9c%80%e8%a6%81%e7%81%b5%e9%ad%82" aria-label="Anchor">#&lt;/a>&lt;/span>&lt;/h2>&lt;p>先说说&amp;quot;没灵魂&amp;quot;是什么感受。&lt;/p>
 &lt;p>随便打开一个 AI 聊天工具，连着用三天。第一天觉得哇塞真厉害，第二天觉得还凑合，第三天开始烦——&lt;/p>
 &lt;p>因为&lt;strong>它每次聊天都失忆&lt;/strong>。&lt;/p>
 &lt;p>昨天刚跟它说&amp;quot;别用&amp;rsquo;赋能&amp;rsquo;这个词&amp;quot;，今天它又用了。上礼拜花了20分钟给它讲项目背景，这礼拜换个聊天窗口，得从头再讲一遍。&lt;/p>
 &lt;p>啥感觉？就像公司给你分了个搭档，能力还行，但每天早上记忆都会被清零。永远处于入职第一天的状态。你说崩溃不崩溃？&lt;/p>
 &lt;p>这不是 AI 笨。是它天生就没有&amp;quot;记住你&amp;quot;的能力。它的工作原理是预测下一个字该说什么——就像一个超级厉害的接话王，但接完就忘。&lt;/p>
-&lt;p>&lt;strong>所以&amp;quot;灵魂&amp;quot;不是什么玄乎的东西。是一个工程活儿。&lt;/strong> 用4个文件，在一个&amp;quot;记不住事&amp;quot;的 AI 上面，硬生生搭出一个有记性、有脾气、有原则、还能自己进步的助手。&lt;/p></description></item></channel></rss>
+&lt;p>&lt;strong>所以&amp;quot;灵魂&amp;quot;不是什么玄乎的东西。是一个工程活儿。&lt;/strong> 用4个文件，在一个&amp;quot;记不住事&amp;quot;的 AI 上面，硬生生搭出一个有记性、有脾气、有原则、还能自己进步的助手。&lt;/p>
+&lt;p>有灵魂和没灵魂，本质区别就一句话：&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>没灵魂的 AI 在回答问题。有灵魂的 AI 在跟你处关系。&lt;/strong>&lt;/p></description></item></channel></rss>
