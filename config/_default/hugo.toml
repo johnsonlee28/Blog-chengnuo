@@ -1,0 +1,12 @@
+baseURL = "https://blog.zhixingshe.cc/"
+languageCode = "zh-CN"
+title = "知行社"
+theme = "blowfish"
+enableRobotsTXT = true
+buildDrafts = false
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

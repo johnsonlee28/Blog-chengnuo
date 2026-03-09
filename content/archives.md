@@ -1,6 +1,6 @@
 ---
 title: "归档"
+date: 2026-01-01
 layout: "archives"
-url: "/archives/"
-summary: "archives"
+slug: "archives"
 ---

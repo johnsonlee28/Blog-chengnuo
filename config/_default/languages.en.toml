@@ -1,0 +1,15 @@
+languageCode = "zh-CN"
+languageName = "中文"
+weight = 1
+title = "知行社"
+
+[author]
+  name = "成诺"
+  image = ""
+  bio = "AI · 效率 · 独立思考 | 一个普通人用 AI 折腾的记录"
+  links = [
+    { github = "https://github.com/johnsonlee28" }
+  ]
+
+[params]
+  description = "知行社 — AI · 效率 · 独立思考"
