@@ -1,0 +1,61 @@
+baseURL = "https://blog.zhixingshe.cc/"
+languageCode = "zh-CN"
+title = "知行社"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "成诺"
+  description = "知行社 — AI · 效率 · 独立思考。关注 AI Agent、效率工作流、独立思考。"
+  keywords = ["AI", "AI Agent", "效率", "自动化", "知行社", "成诺"]
+  defaultTheme = "light"
+  autoSwitchAppearance = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowWordCount = false
+  ShowAuthor = true
+
+  [params.homeInfoParams]
+    Title = "👋 知行社"
+    Content = "AI · 效率 · 独立思考 | 记录用 AI 折腾的实践与收获"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/johnsonlee28"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

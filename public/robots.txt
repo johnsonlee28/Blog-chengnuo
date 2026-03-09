@@ -1,3 +1,3 @@
 User-agent: *
-Allow: /
+Disallow:
 Sitemap: https://blog.zhixingshe.cc/sitemap.xml
