@@ -9,7 +9,8 @@ buildDrafts = false
 
 [params]
   author = "成诺"
-  description = "AI · 效率 · 独立思考"
+  description = "知行社 — AI · 效率 · 独立思考。一个普通人用 AI 折腾的记录，关注 AI Agent、自动化工作流、独立开发。"
+  keywords = ["AI", "AI Agent", "效率", "自动化", "独立开发", "知行社", "成诺", "DeepSeek", "工作流"]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -19,6 +20,7 @@ buildDrafts = false
   ShowToc = true
   TocOpen = false
   ShowWordCount = false
+  canonifyURLs = true
 
   [params.homeInfoParams]
     Title = "知行社 🚌"
@@ -27,6 +29,9 @@ buildDrafts = false
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/johnsonlee28"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
 [menu]
   [[menu.main]]
