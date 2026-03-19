@@ -2,8 +2,8 @@
 title: "OpenClaw团队有岗位没手艺？用了2个月的升级方案"
 date: 2026-03-14
 author: "成诺"
-tags: ["AI", "Agent", "OpenClaw", "工作流", "效率"]
-description: "AI助手都能干活，但都不会判断。翻了一圈配置文件，发现集体缺了同一样东西。"
+tags: ["AI", "Agent", "OpenClaw", "工作流", "效率", "AI团队", "AI Agent搭建", "普通人用AI", "AI实战", "内容创作AI"]
+description: "一个FMCG渠道销售，用2个月时间搭了一支AI团队：情报官、写手、分析师、设计师。不是程序员，靠的是配置文件和踩坑经验。这篇是升级方案——发现了集体缺的那样东西。"
 ---
 
 情报官 Scout 推了一条消息：
