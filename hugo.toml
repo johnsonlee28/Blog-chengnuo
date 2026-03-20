@@ -59,3 +59,8 @@ buildDrafts = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 50
