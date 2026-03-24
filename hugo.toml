@@ -34,6 +34,9 @@ buildDrafts = false
   [[params.socialIcons]]
     name = "rss"
     url = "/index.xml"
+  [[params.socialIcons]]
+    name = "wechat"
+    url = "#"
 
 [menu]
   [[menu.main]]

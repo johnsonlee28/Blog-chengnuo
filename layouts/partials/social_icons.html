@@ -1,0 +1,80 @@
+<div class="social-icons" {{ with .align}}align="{{.}}" {{- end }}>
+    {{- range site.Params.socialIcons }}
+    {{- if eq .name "wechat" }}
+    <span class="wechat-icon-wrap" title="微信：LISC668">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <path d="M8.5 10.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm5 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            <path d="M21.5 14.5c0-3.04-2.95-5.5-6.5-5.5S8.5 11.46 8.5 14.5 11.45 20 15 20c.78 0 1.54-.12 2.24-.33l2.26 1.33-.6-2.1c1.6-1 2.6-2.5 2.6-4.4zM13 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm4 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+            <path d="M9 4C5.13 4 2 6.91 2 10.5c0 2.16 1.12 4.06 2.87 5.28L4 18l2.5-1.37A8.9 8.9 0 0 0 9 17c.34 0 .67-.02 1-.05A5.6 5.6 0 0 1 9.5 14.5C9.5 11.19 12.36 9 15 9c.1 0 .2 0 .3.01C14.28 6.19 11.87 4 9 4zm-2.5 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+        </svg>
+        <span class="wechat-qr-popup">
+            <img src="/wechat-qr.jpg" alt="微信二维码" />
+            <span class="wechat-id">微信号：LISC668</span>
+        </span>
+    </span>
+    {{- else }}
+    <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+        title="{{ (.title | default .name) | title }}">
+        {{ partial "svg.html" . }}
+    </a>
+    {{- end }}
+    {{- end }}
+</div>
+
+<style>
+.wechat-icon-wrap {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--primary);
+    padding: 0 4px;
+}
+.wechat-icon-wrap svg {
+    width: 24px;
+    height: 24px;
+    transition: color 0.2s;
+}
+.wechat-icon-wrap:hover svg {
+    color: #07c160;
+}
+.wechat-qr-popup {
+    display: none;
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--entry, #fff);
+    border: 1px solid var(--border, #e0e0e0);
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    z-index: 999;
+    text-align: center;
+    white-space: nowrap;
+}
+.wechat-qr-popup img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    display: block;
+    border-radius: 6px;
+}
+.wechat-id {
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--secondary, #666);
+    font-weight: 500;
+}
+.wechat-icon-wrap:hover .wechat-qr-popup {
+    display: block;
+}
+/* 防止二维码被截断 */
+.social-icons {
+    overflow: visible !important;
+}
+.profile_inner {
+    overflow: visible !important;
+}
+</style>
