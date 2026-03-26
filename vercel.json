@@ -6,5 +6,10 @@
         { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.146.0"
+    }
+  }
 }
