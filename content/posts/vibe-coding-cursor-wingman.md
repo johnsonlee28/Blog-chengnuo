@@ -67,7 +67,7 @@ Cursor 直接给了技术方案：Next.js 前端 + FastAPI 后端 + Claude Opus 
 
 **第三步：遇到了什么麻烦**
 
-- Claude 识别中文截图偶尔出错 → 换成先用本地 OCR 提取文字，再喂给 Claude Opus 分析
+- 截图识别偶尔出错 → 换成先用本地 OCR 提取文字，再喂给千问分析
 - 「温度」这个概念太主观，模型输出不稳定 → 在 prompt 里加了详细的评分标准和示例
 - 移动端排版垮了 → 让 Cursor 专门跑一轮「只修移动端样式，不动逻辑」
 
@@ -100,7 +100,7 @@ Cursor 直接给了技术方案：Next.js 前端 + FastAPI 后端 + Claude Opus 
 | 代码编写 | Cursor (Claude Opus) |
 | 前端框架 | Next.js + Tailwind |
 | 后端 | FastAPI (Python) |
-| AI 能力 | Claude Opus + Vision |
+| AI 能力 | 通义千问 (Qwen) |
 | 部署 | Vercel (前端) + Railway (后端) |
 | 版本管理 | GitHub |
 
