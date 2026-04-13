@@ -7,6 +7,10 @@ tags: [AI工具, 恋爱, 聊天技巧]
 description: "Wingman AI 聊机：截图上传、分析对方画像、生成回复建议，帮你在暧昧期少走弯路。"
 canonicalURL: "https://blog.zhixingshe.cc/posts/wingman-ai-chat-assistant/"
 draft: false
+cover:
+  image: "/images/covers/wingman-ai-chat-assistant.png"
+  alt: ""
+  relative: false
 ---
 
 喜欢一个人，最怕的不是表白被拒——

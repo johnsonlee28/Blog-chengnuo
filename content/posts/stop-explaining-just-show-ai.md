@@ -7,6 +7,10 @@ categories: [认知与思考]
 tags: [AI, 说服, 沟通, AI推广, 普通人用AI, AI落地]
 description: "跟身边人聊AI总没反应？不是他们不聪明，是你讲错了。一个FMCG从业者怎么让周围人真正相信AI能改变工作——不靠解释，靠让他们看见。"
 canonicalURL: "https://blog.zhixingshe.cc/posts/stop-explaining-just-show-ai/"
+cover:
+  image: "/images/covers/stop-explaining-just-show-ai.png"
+  alt: ""
+  relative: false
 ---
 
 跟身边的人聊 AI 智能体，聊自动化工作流，聊"一个人就是一支队伍"。

@@ -7,6 +7,10 @@ categories: [产品实战]
 tags: [Vibe Coding, Cursor, AI工具, 独立开发, 实战]
 description: "不会写代码，但用 Cursor 从零搭出了 Wingman——一个帮你分析聊天氛围、生成回复的 AI 工具。这是完整的实战过程。"
 canonicalURL: "https://blog.zhixingshe.cc/posts/vibe-coding-cursor-wingman/"
+cover:
+  image: "/images/covers/vibe-coding-cursor-wingman.png"
+  alt: ""
+  relative: false
 ---
 
 去年这时候，我对「Vibe Coding」这个词的理解还停在：「就是 AI 帮你写代码嘛，有啥了不起的。」

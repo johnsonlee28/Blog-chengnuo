@@ -7,6 +7,10 @@ categories: [产品实战]
 tags: [恋爱, 聊天技巧, 沟通, AI聊天助手, 社交技巧, 人际关系]
 description: "第一句话不会发？聊着聊着没话说？发'在吗'像催债，发'嗨'像机器人。第一句话的任务不是打招呼，是给对方一个想回你的理由——一个普通人总结的真实经验。"
 canonicalURL: "https://blog.zhixingshe.cc/posts/why-you-run-out-of-things-to-say/"
+cover:
+  image: "/images/covers/why-you-run-out-of-things-to-say.png"
+  alt: ""
+  relative: false
 ---
 
 加了微信，第一条消息发什么？

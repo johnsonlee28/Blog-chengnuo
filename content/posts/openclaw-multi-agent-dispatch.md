@@ -6,6 +6,10 @@ categories: [AI实战]
 tags: [OpenClaw, 多Agent, 派单, 协作, 教程]
 description: "连续四次派单全部失败，才发现命令用错了。一行命令让 AI 团队真正动起来。"
 canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-multi-agent-dispatch/"
+cover:
+  image: "/images/covers/openclaw-multi-agent-dispatch.png"
+  alt: ""
+  relative: false
 ---
 
 「你测试一下，派个任务给笔杆子。」

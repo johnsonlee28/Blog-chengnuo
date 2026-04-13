@@ -6,6 +6,10 @@ categories: [AI实战]
 tags: [OpenClaw, Skill, TOOLS.md, AI助手, 效率]
 description: "装完 Skill 为什么 AI 还是不用？因为你漏了最重要的一步：装完即写档。"
 canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-skill-tools-md/"
+cover:
+  image: "/images/covers/openclaw-skill-tools-md.png"
+  alt: ""
+  relative: false
 ---
 
 上周干了一件特别有成就感的事。
