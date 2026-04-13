@@ -1,12 +1,19 @@
 baseURL = "https://blog.zhixingshe.cc/"
 languageCode = "zh-CN"
+defaultContentLanguage = "zh"
 title = "知行社"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
+hasCJKLanguage = true
 
 [pagination]
   pagerSize = 10
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
 
 [params]
   author = "成诺"
@@ -23,6 +30,7 @@ buildDrafts = false
   TocOpen = false
   ShowWordCount = false
   ShowAuthor = true
+  DateFormat = "2006年1月2日"
 
   [params.homeInfoParams]
     Title = "👋 知行社"
@@ -59,11 +67,11 @@ buildDrafts = false
     name = "搜索"
     url = "/search/"
     weight = 40
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
   [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
     weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -112,9 +112,9 @@ Cursor 直接给了技术方案：Next.js 前端 + FastAPI 后端 + 通义千问
 
 如果你对「AI 工具怎么真正融入工作流」感兴趣，可以看这几篇：
 
-- [结构化输出：省掉70%的人工整理时间](/posts/结构化输出省70%后处理时间) — 让 AI 直接输出可处理的格式，而不是一堆文字
+- [结构化输出：省掉70%的人工整理时间](/posts/structured-output-save-70-percent-time/) — 让 AI 直接输出可处理的格式，而不是一堆文字
 - [我以为派出去了，其实一个都没到——多 Agent 派单的正确姿势](/posts/openclaw-multi-agent-dispatch) — 多个 AI 协作时踩过的坑
-- [如何给 AI 建立一个灵魂](/posts/如何给AI建立一个灵魂) — 为什么同一个问题，不同的 AI 助手给出完全不同的回答
+- [如何给 AI 建立一个灵魂](/posts/how-to-give-ai-a-soul/) — 为什么同一个问题，不同的 AI 助手给出完全不同的回答
 
 Wingman 现在可以直接用：[wingman.zhixingshe.cc](https://wingman.zhixingshe.cc)
 
