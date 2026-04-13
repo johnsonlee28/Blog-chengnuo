@@ -10,6 +10,10 @@ hasCJKLanguage = true
 [pagination]
   pagerSize = 10
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [languages]
   [languages.zh]
     languageName = "中文"
@@ -32,6 +36,12 @@ hasCJKLanguage = true
   ShowAuthor = true
   DateFormat = "2006年1月2日"
 
+  # 默认OG图（没有cover的文章会用这个）
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
   [params.homeInfoParams]
     Title = "👋 知行社"
     Content = "AI · 效率 · 独立思考 | 记录用 AI 折腾的实践与收获"
@@ -52,6 +62,11 @@ hasCJKLanguage = true
     name = "文章"
     url = "/posts/"
     weight = 10
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 15
   [[menu.main]]
     identifier = "archives"
     name = "归档"

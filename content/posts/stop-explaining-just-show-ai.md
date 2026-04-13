@@ -3,8 +3,10 @@ title: "别解释了，点亮「他」"
 slug: "stop-explaining-just-show-ai"
 date: 2026-03-05
 author: "成诺"
-tags: ["AI", "说服", "沟通", "AI推广", "普通人用AI", "AI落地"]
+categories: [认知与思考]
+tags: [AI, 说服, 沟通, AI推广, 普通人用AI, AI落地]
 description: "跟身边人聊AI总没反应？不是他们不聪明，是你讲错了。一个FMCG从业者怎么让周围人真正相信AI能改变工作——不靠解释，靠让他们看见。"
+canonicalURL: "https://blog.zhixingshe.cc/posts/stop-explaining-just-show-ai/"
 ---
 
 跟身边的人聊 AI 智能体，聊自动化工作流，聊"一个人就是一支队伍"。

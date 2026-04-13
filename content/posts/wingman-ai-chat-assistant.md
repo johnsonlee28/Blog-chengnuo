@@ -1,9 +1,12 @@
 ---
 title: "聊天不知道说什么？我用这个 AI 工具，把「冷场率」降到了个位数"
-date: 2026-03-28T22:00:00+08:00
-draft: false
+slug: "wingman-ai-chat-assistant"
+date: 2026-03-28 22:00:00+08:00
+categories: [产品实战]
+tags: [AI工具, 恋爱, 聊天技巧]
 description: "Wingman AI 聊机：截图上传、分析对方画像、生成回复建议，帮你在暧昧期少走弯路。"
-tags: ["AI工具", "恋爱", "聊天技巧"]
+canonicalURL: "https://blog.zhixingshe.cc/posts/wingman-ai-chat-assistant/"
+draft: false
 ---
 
 喜欢一个人，最怕的不是表白被拒——
@@ -90,3 +93,11 @@ tags: ["AI工具", "恋爱", "聊天技巧"]
 功能全部免费，不需要注册，打开即用。
 
 有问题或者建议，欢迎在评论区告诉我。
+
+---
+
+## 延伸阅读
+
+- [跟喜欢的人聊天，为什么总是你先没话说？](/posts/why-you-run-out-of-things-to-say/)
+- [Vibe Coding 实战：用 Cursor 做了一个 AI 情感僚机](/posts/vibe-coding-cursor-wingman/)
+- [我让 AI「审判」了上个月的账单](/posts/ai-roast-my-monthly-bills/)

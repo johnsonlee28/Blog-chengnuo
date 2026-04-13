@@ -3,8 +3,10 @@ title: "结构化输出：省掉70%的人工整理时间（以及它不适合的
 slug: "structured-output-save-70-percent-time"
 date: 2026-03-10
 author: "成诺"
-tags: ["AI", "OpenClaw", "效率", "自动化", "工程技巧", "JSON", "AI工作流", "非程序员用AI", "普通人用AI"]
+categories: [AI实战]
+tags: [AI, OpenClaw, 效率, 自动化, 工程技巧, JSON, AI工作流, 非程序员用AI, 普通人用AI]
 description: "不是程序员，也能让AI输出结构化数据，省掉70%手工整理时间。一个做快消品渠道销售的人，怎么把开发者才会用的技巧变成日常工作流——含具体示例。"
+canonicalURL: "https://blog.zhixingshe.cc/posts/structured-output-save-70-percent-time/"
 ---
 
 有一件事，大多数人用AI从来没想过——

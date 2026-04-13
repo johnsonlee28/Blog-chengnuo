@@ -3,9 +3,10 @@ title: "为什么很多老板学AI，最后学成了信息焦虑"
 slug: "why-bosses-learn-ai-become-anxious"
 date: 2026-04-08
 author: "成诺"
-tags: ["AI落地", "中小企业AI", "AI工具", "老板学AI", "AI焦虑", "判断力", "AI实践"]
+categories: [认知与思考]
+tags: [AI落地, 中小企业AI, AI工具, 老板学AI, AI焦虑, 判断力, AI实践]
 description: "花了半年时间学AI，结果反而更焦虑？问题不在于你学得不够多，而在于你学错了方向。这篇文章帮你找到真正的卡点。"
-keywords: ["老板学AI", "AI落地", "中小企业AI", "AI信息焦虑", "AI工具怎么用", "AI判断力"]
+keywords: [老板学AI, AI落地, 中小企业AI, AI信息焦虑, AI工具怎么用, AI判断力]
 canonicalURL: "https://blog.zhixingshe.cc/posts/why-bosses-learn-ai-become-anxious/"
 ---
 
@@ -109,3 +110,11 @@ AI 落地有没有效果，只有一个衡量标准：**钱或时间。**
 ---
 
 *更多 AI 落地实践内容，见 [知行社博客](https://blog.zhixingshe.cc)*
+
+---
+
+## 延伸阅读
+
+- [用AI的人，正在悄悄变笨](/posts/ai-making-people-dumb/)
+- [别解释了，点亮「他」](/posts/stop-explaining-just-show-ai/)
+- [AI帮你到了终点，但路上的风景只能自己看](/posts/helicopter-era-ai-cant-replace-experience/)

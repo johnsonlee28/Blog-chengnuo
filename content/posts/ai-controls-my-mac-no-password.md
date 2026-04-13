@@ -3,8 +3,10 @@ title: "我让AI直接开我的电脑干活，没给密码"
 slug: "ai-controls-my-mac-no-password"
 date: 2026-03-19
 author: "成诺"
-tags: ["AI", "Tailscale", "Chrome", "自动化", "OpenClaw"]
+categories: [AI实战]
+tags: [AI, Tailscale, Chrome, 自动化, OpenClaw]
 description: "AI 用你的 Chrome、带你的登录态干活，不需要密码。踩了半天 IPv6 的坑，最后发现答案早就在那了。"
+canonicalURL: "https://blog.zhixingshe.cc/posts/ai-controls-my-mac-no-password/"
 ---
 
 对 Openclaw 说一句"帮我在 podwise 上搜索最近比较火的 Top 20 信息，整理成科技朋克信息图"。

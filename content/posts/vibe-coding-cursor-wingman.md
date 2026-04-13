@@ -1,9 +1,12 @@
 ---
 title: "Vibe Coding 实战：我用 Cursor 做了一个 AI 情感僚机"
+slug: "vibe-coding-cursor-wingman"
 date: 2026-04-01
 author: "成诺"
-tags: ["Vibe Coding", "Cursor", "AI工具", "独立开发", "实战"]
+categories: [产品实战]
+tags: [Vibe Coding, Cursor, AI工具, 独立开发, 实战]
 description: "不会写代码，但用 Cursor 从零搭出了 Wingman——一个帮你分析聊天氛围、生成回复的 AI 工具。这是完整的实战过程。"
+canonicalURL: "https://blog.zhixingshe.cc/posts/vibe-coding-cursor-wingman/"
 ---
 
 去年这时候，我对「Vibe Coding」这个词的理解还停在：「就是 AI 帮你写代码嘛，有啥了不起的。」
@@ -121,3 +124,11 @@ Wingman 现在可以直接用：[wingman.zhixingshe.cc](https://wingman.zhixings
 ---
 
 *有在用 Cursor 做东西的，欢迎告诉我你遇到的最大卡点。*
+
+---
+
+## 延伸阅读
+
+- [用 AI 工具把「冷场率」降到了个位数](/posts/wingman-ai-chat-assistant/)
+- [跟喜欢的人聊天，为什么总是你先没话说？](/posts/why-you-run-out-of-things-to-say/)
+- [AI帮你到了终点，但路上的风景只能自己看](/posts/helicopter-era-ai-cant-replace-experience/)

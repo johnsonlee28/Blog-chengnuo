@@ -3,8 +3,10 @@ title: "我让 AI「审判」了上个月的账单，结果被骂哭了"
 slug: "ai-roast-my-monthly-bills"
 date: 2026-03-10
 author: "成诺"
-tags: ["AI", "消费", "工具", "ReceiptRoast", "AI记账", "普通人用AI", "账单分析", "AI理财"]
+categories: [AI实战]
+tags: [AI, 消费, 工具, ReceiptRoast, AI记账, 普通人用AI, 账单分析, AI理财]
 description: "一个FMCG从业者用AI审判自己的月度账单。不是程序员，没有代码，照样让AI替自己做了一件记账App永远做不到的事——真正扎心。"
+canonicalURL: "https://blog.zhixingshe.cc/posts/ai-roast-my-monthly-bills/"
 ---
 
 深夜十一点半，银行 App 弹出一条推送：

@@ -1,9 +1,12 @@
 ---
 title: "用了半年OpenClaw，才发现AI一直在偷偷记事"
-date: 2026-03-24T15:00:00+08:00
-draft: false
-tags: ["OpenClaw", "AI记忆", "Agent", "LCM", "Memory Search", "AI助理", "实战"]
+slug: "openclaw-memory-system-three-layers"
+date: 2026-03-24 15:00:00+08:00
+categories: [AI实战]
+tags: [OpenClaw, AI记忆, Agent, LCM, Memory Search, AI助理, 实战]
 description: "没装任何记忆插件，但AI三个月前说的话它还记得。后来才发现OpenClaw开箱就跑着三套记忆系统：LCM、Memory Search、MEMORY.md，零配置，一直在运行。"
+canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-memory-system-three-layers/"
+draft: false
 ---
 
 上周整理一篇文章的大纲，随口跟AI说"用上次那个三段式结构"。
@@ -107,3 +110,11 @@ openclaw memory status
 ```
 
 看到那个数字的时候，可能会和当初一样愣一下：原来它一直都记得。
+
+---
+
+## 延伸阅读
+
+- [如何给 AI 建立一个灵魂](/posts/how-to-give-ai-a-soul/)
+- [给 OpenClaw 配了六个 Skill，第二天它全忘了](/posts/openclaw-skill-tools-md/)
+- [OpenClaw 多 Agent 派单的正确姿势](/posts/openclaw-multi-agent-dispatch/)
