@@ -4,7 +4,7 @@ slug: "why-bosses-learn-ai-become-anxious"
 date: 2026-04-08
 author: "成诺"
 categories: [认知与思考]
-tags: [AI落地, 中小企业AI, AI工具, 老板学AI, AI焦虑, 判断力, AI实践]
+tags: [AI落地, AI工具, 认知]
 description: "花了半年时间学AI，结果反而更焦虑？问题不在于你学得不够多，而在于你学错了方向。这篇文章帮你找到真正的卡点。"
 keywords: [老板学AI, AI落地, 中小企业AI, AI信息焦虑, AI工具怎么用, AI判断力]
 canonicalURL: "https://blog.zhixingshe.cc/posts/why-bosses-learn-ai-become-anxious/"

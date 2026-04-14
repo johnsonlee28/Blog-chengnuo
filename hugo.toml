@@ -83,6 +83,11 @@ hasCJKLanguage = true
     url = "/search/"
     weight = 40
   [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/index.xml"
+    weight = 45
+  [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"

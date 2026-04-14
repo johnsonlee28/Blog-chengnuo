@@ -4,7 +4,7 @@ slug: "ai-making-people-dumb"
 date: 2026-03-22
 author: "成诺"
 categories: [认知与思考]
-tags: [AI, 认知, 思维, AI工具, 普通人用AI, 大脑, 用进废退, 独立思考, AI时代, Vibe Coding]
+tags: [AI, 认知, AI工具, 普通人用AI, Vibe Coding]
 description: "AI帮你写代码、写报告、导航出行，效率翻倍。但有一件事没人告诉你：用久了，那块肌肉会悄悄萎缩。"
 keywords: [AI让人变笨, AI工具副作用, 用进废退, 认知退化, AI时代思考力, Vibe Coding风险, AI依赖症]
 canonicalURL: "https://blog.zhixingshe.cc/posts/ai-making-people-dumb/"

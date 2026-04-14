@@ -4,7 +4,7 @@ slug: "helicopter-era-ai-cant-replace-experience"
 date: 2026-03-20
 author: "成诺"
 categories: [认知与思考]
-tags: [AI, Vibe Coding, 判断力, 成长, 经验, AI时代生存, 过程vs结果, AI不能替代什么]
+tags: [AI, Vibe Coding, 认知]
 description: "Vibe Coding时代，AI能帮你写代码、整理数据、生成方案，但判断力只能自己踩坑练出来。从儿子考试焦虑到程序员白板死磕，说的是同一件事：没走过的路，不算你走过。"
 canonicalURL: "https://blog.zhixingshe.cc/posts/helicopter-era-ai-cant-replace-experience/"
 cover:
