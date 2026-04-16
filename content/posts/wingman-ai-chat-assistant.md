@@ -2,14 +2,16 @@
 title: "聊天不知道说什么？我用这个 AI 工具，把「冷场率」降到了个位数"
 slug: "wingman-ai-chat-assistant"
 date: 2026-03-28 22:00:00+08:00
+lastmod: 2026-04-17
 categories: [产品实战]
 tags: [AI工具, 社交]
 description: "Wingman AI 聊机：截图上传、分析对方画像、生成回复建议，帮你在暧昧期少走弯路。"
+keywords: ['Wingman AI', 'AI聊天助手', '聊天冷场解决', 'AI情感分析', '聊天回复建议', 'AI社交工具']
 canonicalURL: "https://blog.zhixingshe.cc/posts/wingman-ai-chat-assistant/"
 draft: false
 cover:
   image: "/images/covers/wingman-ai-chat-assistant.png"
-  alt: ""
+  alt: "Wingman AI聊天助手降低冷场率"
   relative: false
 ---
 
@@ -17,7 +19,7 @@ cover:
 
 **最怕的是，还没到表白那步，聊天就已经死了。**
 
-已读不回、回复越来越短、话题越聊越窄……这些信号出现的时候，大多数人的反应是：**反复看着对话框发呆，不知道下一句该说什么。**
+已读不回、回复越来越短、话题越聊越窄（关于[为什么总是你先没话说](/posts/why-you-run-out-of-things-to-say/)，之前写了篇分析）……这些信号出现的时候，大多数人的反应是：**反复看着对话框发呆，不知道下一句该说什么。**
 
 我也经历过这个阶段。直到我开始用 **Wingman**。
 
@@ -94,7 +96,7 @@ cover:
 
 👉 **[wingman.zhixingshe.cc](https://wingman.zhixingshe.cc)**
 
-功能全部免费，不需要注册，打开即用。
+功能全部免费，不需要注册（好奇这个工具是怎么做出来的？看[Vibe Coding 实战记录](/posts/vibe-coding-cursor-wingman/)），打开即用。
 
 有问题或者建议，欢迎在评论区告诉我。
 

@@ -2,14 +2,16 @@
 title: "用了半年OpenClaw，才发现AI一直在偷偷记事"
 slug: "openclaw-memory-system-three-layers"
 date: 2026-03-24 15:00:00+08:00
+lastmod: 2026-04-17
 categories: [AI实战]
 tags: [OpenClaw, AI记忆, AI Agent, 实战]
 description: "没装任何记忆插件，但AI三个月前说的话它还记得。后来才发现OpenClaw开箱就跑着三套记忆系统：LCM、Memory Search、MEMORY.md，零配置，一直在运行。"
+keywords: ['OpenClaw记忆', 'AI记忆三层', 'LCM记忆', 'Memory Search', 'MEMORY.md', 'AI长期记忆', 'OpenClaw实战']
 canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-memory-system-three-layers/"
 draft: false
 cover:
   image: "/images/covers/openclaw-memory-system-three-layers.png"
-  alt: ""
+  alt: "OpenClaw三层AI记忆系统架构"
   relative: false
 ---
 
@@ -49,13 +51,13 @@ cover:
 
 回到开头那个问题：既然没装过任何插件，AI是怎么记住的？
 
-跑了一下 `openclaw memory status`，看到了答案：
+跑了一下 `openclaw memory status`（如果你也在用 OpenClaw，建议顺便把[TOOLS.md 工具清单](/posts/openclaw-skill-tools-md/)也配好，记忆和技能是两回事），看到了答案：
 
 > 📊 54个文件已索引，257个语义块，向量数据库就绪。
 
 **LCM 和 Memory Search 是 OpenClaw 的内置功能，装好 OpenClaw 就自动启用，不需要额外安装任何东西，也不需要改任何配置。**
 
-OpenClaw在后台默默做了三件事，对应三层记忆，各管各的，互不干扰。
+这些文件就是 AI 的「灵魂」——关于怎么配置这一套，可以看[这篇实操](/posts/how-to-give-ai-a-soul/)。而在记忆层面，OpenClaw在后台默默做了三件事，对应三层记忆，各管各的，互不干扰。
 
 ### 第一层：LCM（对话不遗忘）
 

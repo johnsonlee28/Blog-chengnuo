@@ -2,14 +2,16 @@
 title: "AI帮你到了终点，但路上的风景只能自己看"
 slug: "helicopter-era-ai-cant-replace-experience"
 date: 2026-03-20
+lastmod: 2026-04-17
 author: "成诺"
 categories: [认知与思考]
 tags: [AI, Vibe Coding, 认知]
 description: "Vibe Coding时代，AI能帮你写代码、整理数据、生成方案，但判断力只能自己踩坑练出来。从儿子考试焦虑到程序员白板死磕，说的是同一件事：没走过的路，不算你走过。"
+keywords: ['AI替代经验', 'Vibe Coding陷阱', '判断力训练', 'AI时代成长', '直升机时代', 'AI不能替代的能力']
 canonicalURL: "https://blog.zhixingshe.cc/posts/helicopter-era-ai-cant-replace-experience/"
 cover:
   image: "/images/covers/helicopter-era-ai-cant-replace-experience.png"
-  alt: ""
+  alt: "AI时代经验和判断力不可替代"
   relative: false
 ---
 

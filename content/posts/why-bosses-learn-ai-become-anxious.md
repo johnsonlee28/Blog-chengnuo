@@ -2,6 +2,7 @@
 title: "为什么很多老板学AI，最后学成了信息焦虑"
 slug: "why-bosses-learn-ai-become-anxious"
 date: 2026-04-08
+lastmod: 2026-04-17
 author: "成诺"
 categories: [认知与思考]
 tags: [AI落地, AI工具, 认知]
@@ -10,7 +11,7 @@ keywords: [老板学AI, AI落地, 中小企业AI, AI信息焦虑, AI工具怎么
 canonicalURL: "https://blog.zhixingshe.cc/posts/why-bosses-learn-ai-become-anxious/"
 cover:
   image: "/images/covers/why-bosses-learn-ai-become-anxious.png"
-  alt: ""
+  alt: "老板学AI变成信息焦虑的原因分析"
   relative: false
 ---
 
@@ -50,7 +51,7 @@ cover:
 
 **第一，工具更新速度快过学习速度。**
 
-去年的热门工具，今年可能已经被取代了。花在学一个工具上的时间，ROI 正在快速下降。与其追工具，不如建立一套评估工具的框架——这个框架的有效期比任何一个工具都长。
+去年的热门工具，今年可能已经被取代了。花在学一个工具上的时间，ROI 正在快速下降。与其追工具，不如建立一套评估工具的框架（甚至可以[用 Vibe Coding 自己做一个工具](/posts/vibe-coding-cursor-wingman/)）——这个框架的有效期比任何一个工具都长。
 
 **第二，工具本身不知道你的生意是什么。**
 
@@ -79,7 +80,7 @@ ChatGPT 不知道你的客户是谁、你的利润结构是什么、你的销售
 
 选清单里排第一的事情，找一个工具，跑一个月，看有没有真实效果。有效果就继续优化，没效果就排除——这叫**有效学习**，而不是信息收集。
 
-一件事跑通了，你才知道 AI 在你的生意里到底能做什么、不能做什么。这个认知，比看 100 篇 AI 教程都有价值。
+一件事跑通了（比如先试试[结构化输出](/posts/structured-output-save-70-percent-time/)省掉重复整理的时间），你才知道 AI 在你的生意里到底能做什么、不能做什么。这个认知，比看 100 篇 AI 教程都有价值。
 
 **第 3 步：用商业结果来评估，而不是"感觉有用"**
 

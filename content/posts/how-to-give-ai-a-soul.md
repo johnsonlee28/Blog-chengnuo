@@ -2,14 +2,16 @@
 title: "如何给 AI 建立一个灵魂"
 slug: "how-to-give-ai-a-soul"
 date: 2026-03-07
+lastmod: 2026-04-17
 author: "成诺"
 categories: [AI实战]
 tags: [AI, AI Agent, 效率, OpenClaw, AI记忆]
 description: "AI助手用久了，为什么总感觉在跟陌生人说话？因为没有灵魂。一个在FMCG行业用AI管理内容团队的人，用4个文件搭出了有记性、有脾气、还能自我进化的AI搭档——非程序员也能做到。"
+keywords: ['AI灵魂', 'SOUL.md', 'AI人格配置', 'OpenClaw配置', 'AI记忆系统', 'AI助手人格化', '非程序员AI配置']
 canonicalURL: "https://blog.zhixingshe.cc/posts/how-to-give-ai-a-soul/"
 cover:
   image: "/images/covers/how-to-give-ai-a-soul.png"
-  alt: ""
+  alt: "给AI助手配置人格和灵魂"
   relative: false
 ---
 

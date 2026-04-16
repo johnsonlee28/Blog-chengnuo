@@ -1,13 +1,28 @@
-<!-- 百度站长验证 -->
+{{- /* 
+  extend_head.html — Supplementary SEO tags
+  PaperMod already handles: canonical, OG (og:url/type/title/desc/locale/image),
+  Twitter Cards, BreadcrumbList schema, BlogPosting schema.
+  This file adds ONLY what PaperMod doesn't provide.
+*/ -}}
+
+<!-- 站长验证 -->
 <meta name="baidu-site-verification" content="codeva-wXDhbIgGXM" />
-
 <meta name="google-site-verification" content="fFwN2jWi0VAPW8w2HD9JSl70lYsr7HE3b3WjXxHe428" />
-<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
 
-{{- /* WebSite Schema — enables Google Sitelinks Search Box */ -}}
+
+{{- /* Prev/Next rel links for article series navigation — helps crawlers */ -}}
+{{ if .IsPage }}
+{{ if eq .Section "posts" }}
+  {{- with .PrevInSection }}
+  <link rel="prev" href="{{ .Permalink }}">
+  {{- end }}
+  {{- with .NextInSection }}
+  <link rel="next" href="{{ .Permalink }}">
+  {{- end }}
+{{ end }}
+{{ end }}
+
+{{- /* WebSite Schema — PaperMod doesn't add this, enables Sitelinks Search Box */ -}}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
@@ -26,7 +41,8 @@
 </script>
 {{ end }}
 
-{{- /* Article Schema with Author for blog posts */ -}}
+{{- /* Enhanced Article Schema — adds fields PaperMod's BlogPosting doesn't include:
+       wordCount, inLanguage, keywords, author URL, publisher logo */ -}}
 {{ if .IsPage }}
 {{ if eq .Section "posts" }}
 <script type="application/ld+json">
@@ -42,6 +58,11 @@
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
   },
+  "wordCount": "{{ .WordCount }}",
+  "inLanguage": "zh-CN",
+  {{- with .Params.keywords }}
+  "keywords": "{{ delimit . ", " }}",
+  {{- end }}
   "author": {
     "@type": "Person",
     "name": "成诺",

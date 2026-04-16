@@ -1,51 +1,11 @@
-<!-- Open Graph / 微信分享 -->
-<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+{{- /* 
+  head_custom.html — supplementary meta tags
+  Main OG, Schema.org, and verification tags are in extend_head.html
+  This file only adds non-duplicate extras.
+*/ -}}
+
+<!-- og:site_name (not in extend_head) -->
 <meta property="og:site_name" content="{{ .Site.Title }}">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}">
-
-<!-- 结构化数据 Schema.org -->
-{{ if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  "name": "{{ .Site.Title }}",
-  "url": "{{ .Site.BaseURL }}",
-  "description": "{{ .Site.Params.description }}",
-  "author": {
-    "@type": "Person",
-    "name": "成诺"
-  }
-}
-</script>
-{{ else if .IsPage }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "{{ .Title }}",
-  "url": "{{ .Permalink }}",
-  "datePublished": "{{ .Date.Format "2006-01-02" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ .Params.author | default .Site.Params.author }}"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ .Site.Title }}"
-  },
-  "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}"
-}
-</script>
-{{ end }}
-
-<!-- 百度站长验证 -->
-<meta name="baidu-site-verification" content="codeva-wXDhbIgGXM" />
+{{- /* Twitter Card — only if not already handled by theme's twitter_cards.html */ -}}
+{{- /* PaperMod handles twitter cards via templates/twitter_cards.html, so skip here */ -}}

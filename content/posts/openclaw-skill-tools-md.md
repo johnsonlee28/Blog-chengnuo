@@ -2,13 +2,15 @@
 title: "给 OpenClaw 配了六个 Skill，第二天它全忘了——原来少了这一步"
 slug: "openclaw-skill-tools-md"
 date: 2026-03-26
+lastmod: 2026-04-17
 categories: [AI实战]
 tags: [OpenClaw, AI Agent, 效率]
 description: "装完 Skill 为什么 AI 还是不用？因为你漏了最重要的一步：装完即写档。"
+keywords: ['OpenClaw Skill', 'TOOLS.md', 'AI工具管理', '装完即写档', 'OpenClaw配置', 'AI Agent技能']
 canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-skill-tools-md/"
 cover:
   image: "/images/covers/openclaw-skill-tools-md.png"
-  alt: ""
+  alt: "OpenClaw Skill工具管理TOOLS.md"
   relative: false
 ---
 
@@ -18,7 +20,7 @@ cover:
 
 那种感觉，就像给新员工准备好了工位、电脑、门禁卡、内部通讯录，连咖啡杯都摆上了。
 
-心想：这下齐活了，明天开始大干一场。
+心想：这下齐活了，明天开始大干一场。（后来发现[派单命令也用错了](/posts/openclaw-multi-agent-dispatch/)，但那是另一个坑。）
 
 第二天。
 
@@ -59,7 +61,7 @@ OpenClaw 每次启动，会自动加载几个核心文件：
 - **AGENTS.md** — 相当于员工手册，告诉它该怎么干活
 - **SOUL.md** — 相当于岗位说明书，决定它的风格和态度
 - **TOOLS.md** — 相当于工位上的工具清单，记录有什么家伙事儿
-- **MEMORY.md** — 相当于工作笔记本，积累的经验教训
+- **MEMORY.md** — 相当于工作笔记本（关于这套[三层记忆系统](/posts/openclaw-memory-system-three-layers/)的细节，单独写了一篇），积累的经验教训
 
 这些文件就是贴在工位上的便签。**AI 每天"上班"第一件事，就是把这些便签全读一遍。**
 
