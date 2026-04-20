@@ -105,7 +105,7 @@ cover:
 "在？"
 "看到吗"
 "在不在"
-```
+```text
 
 全都石沉大海。不是它不想回，是服务端压根没在监听。
 
@@ -182,21 +182,21 @@ def send_feishu_message(chat_id, text):
         json={"receive_id": chat_id, "msg_type": "text", "content": json.dumps({"text": text})})
 
 HTTPServer(("0.0.0.0", 9000), Handler).serve_forever()
-```
+```text
 
 启动方式：
 
 ```bash
 nohup python3 server.py > /var/log/xiaolongxia.log 2>&1 &
-```
+```text
 
 ### 踩坑1：AI 后端 403
 
 最初走的是 Anthropic 那条路径。服务虽然能收到消息，但一到回复环节就报错：
 
-```
+```text
 HTTP Error 403: Forbidden（code: 1010）
-```
+```text
 
 换了几个 key 都不行。后来没继续死磕，直接切到 **Gemini**，第一次请求就回了“你好！”，问题当场消失。
 
@@ -210,10 +210,10 @@ HTTP Error 403: Forbidden（code: 1010）
 
 日志里最明显的信号就是同一行启动信息出现了两次：
 
-```
+```text
 [INFO] 小龙虾启动 0.0.0.0:9000
 [INFO] 小龙虾启动 0.0.0.0:9000  ← 这行出现两次就是信号
-```
+```text
 
 处理方式很土，但最有效：
 
@@ -221,7 +221,7 @@ HTTP Error 403: Forbidden（code: 1010）
 ps aux | grep server.py
 kill -9 <旧进程PID>
 # 确认清空再重启
-```
+```text
 
 很多时候不是代码没改对，是旧进程还活着。重启之前先看进程列表，这一步省掉很多冤枉时间。
 
@@ -231,11 +231,11 @@ kill -9 <旧进程PID>
 
 当时排查顺序大概是这样：
 
-```
+```text
 进程在跑? ✅
 本机 curl localhost:9000 通? ✅
 外网 curl 公网IP:9000 通? ❌ ← 卡在这里
-```
+```text
 
 去腾讯云控制台加一条入站规则：TCP 9000，来源 `0.0.0.0/0`，问题就没了。
 
@@ -260,12 +260,12 @@ kill -9 <旧进程PID>
 
 调通之后，孩子发来消息，机器人回了一句：
 
-```
+```text
 在。🫡
 
 我是你未来的探索伙伴。
 你想叫我什么？随便取，代号也行。
-```
+```text
 
 这不是测试文案，是第一条真正跑出来的回复。看到它出来的那一刻，前面那些端口、进程、回调模式的坑，才算真的过去了。
 
@@ -327,7 +327,7 @@ curl -s -X POST "https://api.github.com/user/repos" \
     "private": true,
     "auto_init": true
   }'
-```
+```text
 
 然后在主 VPS 上 clone，顺手把目录结构初始化好：
 
@@ -337,7 +337,7 @@ cd /opt/shared-reports
 mkdir -p reports scripts
 echo "" > last_sync.txt
 git add . && git commit -m "🦞 初始化仓库结构" && git push
-```
+```text
 
 这里的 `last_sync.txt` 很关键，它不是装饰文件，而是后面防止重复推送的状态记录。
 
@@ -348,7 +348,7 @@ git add . && git commit -m "🦞 初始化仓库结构" && git push
 ```bash
 git clone https://用户名:TOKEN@github.com/用户名/xiaolongxia-reports.git /opt/shared-reports
 mkdir -p /opt/xiaolongxia
-```
+```text
 
 > ⚠️ **踩坑：** 这台机器是最小化系统，连 `curl` 都没装。先跑 `apt-get install -y curl git`，不然后面第一步就卡死。
 
@@ -372,7 +372,7 @@ d=json.load(sys.stdin)
 token=d.get('tenant_access_token','')
 print('✅ Token OK' if token else '❌ 失败: '+str(d))
 "
-```
+```text
 
 然后把会话列表拉出来，找到孩子和小龙虾正在聊的那个 `chat_id`：
 
@@ -385,13 +385,13 @@ d=json.load(sys.stdin)
 for c in d.get('data',{}).get('items',[]):
     print(c.get('name','未命名'), ':', c.get('chat_id'))
 "
-```
+```text
 
 输出大概会像这样：
 
-```
+```text
 用户675831 : oc_137e0f75803077b2b15e4497484ddd70
-```
+```text
 
 后面真正拉消息的时候，用的就是这个 `oc_xxx`。
 
@@ -427,7 +427,7 @@ for msg in items:
     lines.append("[{}] {}: {}".format(t.strftime("%H:%M"), role, text))
 
 print("\n".join(lines) if lines else "今日暂无对话记录")
-```
+```text
 
 主 VPS 提交：
 
@@ -435,14 +435,14 @@ print("\n".join(lines) if lines else "今日暂无对话记录")
 git add scripts/parse_messages.py
 git commit -m "✅ 添加飞书消息解析脚本"
 git push
-```
+```text
 
 孩子 VPS 拉取并做一次语法检查：
 
 ```bash
 cd /opt/shared-reports && git pull
 python3 -m py_compile scripts/parse_messages.py && echo "语法OK ✅"
-```
+```text
 
 ### 第五步：孩子 VPS 推送脚本
 
@@ -487,13 +487,13 @@ git add reports/
 git commit -m "🦞 小龙虾日报 ${DATE}" --quiet
 git push --quiet 2>/dev/null
 echo "[$(date)] 日报已推送 ✅"
-```
+```text
 
 加 cron，每天 21:50（GMT+8）自动跑：
 
 ```bash
 (crontab -l 2>/dev/null; echo "50 13 * * * /opt/xiaolongxia/push_report.sh >> /var/log/xiaolongxia.log 2>&1") | crontab -
-```
+```text
 
 ### 第六步：主 VPS 拉取并发送通知
 
@@ -531,13 +531,13 @@ _📁 完整存档: xiaolongxia-reports/reports/${DATE}_xiaolongxia.md_" \
 echo "$DATE" > "$STATE_FILE"
 cd "$REPO_DIR" && git add last_sync.txt && git commit -m "📨 猫巴士已转发日报 ${DATE}" --quiet && git push --quiet 2>/dev/null
 echo "[$(date)] 日报已转发 ✅"
-```
+```text
 
 加 cron，每天 22:05（GMT+8）自动执行：
 
 ```bash
 (crontab -l 2>/dev/null; echo "5 14 * * * /root/.openclaw/workspace/scripts/fetch_xiaolongxia.sh >> /var/log/catbus_xiaolongxia.log 2>&1") | crontab -
-```
+```text
 
 ---
 
@@ -550,14 +550,14 @@ echo "[$(date)] 日报已转发 ✅"
 ```bash
 bash /opt/xiaolongxia/push_report.sh
 # 输出：[时间] 日报已推送 ✅
-```
+```text
 
 再到主 VPS 上拉取检查：
 
 ```bash
 cd /opt/shared-reports && git pull
 cat reports/$(date +%Y-%m-%d)_xiaolongxia.md
-```
+```text
 
 能看到当天生成的 Markdown 内容，说明前半段链路通了。再等 22:05 的定时任务触发，通知那边能收到，就代表整条链路闭环了。
 
