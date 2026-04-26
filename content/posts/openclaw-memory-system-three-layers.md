@@ -124,3 +124,7 @@ openclaw memory status
 - [如何给 AI 建立一个灵魂](/posts/how-to-give-ai-a-soul/)
 - [给 OpenClaw 配了六个 Skill，第二天它全忘了](/posts/openclaw-skill-tools-md/)
 - [OpenClaw 多 Agent 派单的正确姿势](/posts/openclaw-multi-agent-dispatch/)
+
+---
+
+如果你在用 AI 写内容，担心留下太多 AI 痕迹——[AI Detector](https://aidetector.life) 免费检测，词级热力图，不用注册。

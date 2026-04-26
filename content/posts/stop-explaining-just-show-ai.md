@@ -57,3 +57,7 @@ cover:
 - [如何给 AI 建立一个灵魂](/posts/how-to-give-ai-a-soul/) — 想让别人看见光亮？先把自己的AI搭档调教到位
 - [我让 AI「审判」了上个月的账单](/posts/ai-roast-my-monthly-bills/) — 一个真实案例：用AI做出好玩的东西，比解释原理强100倍
 - [OpenClaw团队有岗位没手艺？用了2个月的升级方案](/posts/openclaw-team-skill-upgrade-2-months/) — 当别人问"AI到底能干嘛"，给他看这套7人AI团队
+
+---
+
+想让别人看见 AI 的效果，先给他们一个能用上的工具。[Wingman](https://wingman.zhixingshe.cc) 帮你在聊天里找到表达节奏，试一下就明白了。

@@ -266,3 +266,7 @@ AI负责思考，程序负责处理，人负责判断用哪种方式。
 - [如何给 AI 建立一个灵魂](/posts/how-to-give-ai-a-soul/) — 结构化输出解决数据流转，灵魂系统解决AI的判断力
 - [OpenClaw团队有岗位没手艺？用了2个月的升级方案](/posts/openclaw-team-skill-upgrade-2-months/) — 多Agent流水线跑起来之后，怎么让每个Agent越用越好
 - [别解释了，点亮「他」](/posts/stop-explaining-just-show-ai/) — 让身边的人看见AI能干什么，比解释原理管用100倍
+
+---
+
+AI 帮你省了 70% 整理时间，内容产出多了——用 [AI Detector](https://aidetector.life) 查一下有没有 AI 腔，免费、词级标注、不用注册。

@@ -742,3 +742,7 @@ cat reports/$(date +%Y-%m-%d)_xiaolongxia.md
 
 
 </details>
+
+---
+
+给孩子造了一个 AI 学长，其实本质也是帮他找到开口说话的方式。大人也一样——[Wingman](https://wingman.zhixingshe.cc) 是专门为沟通场景设计的 AI 工具，在你不确定怎么开口的时候用一下。

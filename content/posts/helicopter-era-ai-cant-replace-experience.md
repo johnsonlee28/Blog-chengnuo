@@ -56,3 +56,7 @@ AI生成的东西也一样。代码是结果，判断力才是你的。报告是
 - [如何给 AI 建立一个灵魂](/posts/how-to-give-ai-a-soul/) — AI再厉害也需要你喂灵魂，判断力从这里开始
 - [OpenClaw团队有岗位没手艺？用了2个月的升级方案](/posts/openclaw-team-skill-upgrade-2-months/) — 直升机飞完之后，团队的手艺怎么练出来
 - [结构化输出：省掉70%的人工整理时间](/posts/structured-output-save-70-percent-time/) — 该飞的飞，该走的走：哪些环节适合交给AI自动化
+
+---
+
+路上的风景得自己走，但有些话得靠时机说对。[Wingman](https://wingman.zhixingshe.cc) 是 AI 聊天辅助工具，帮你在关键时刻找到那句话。

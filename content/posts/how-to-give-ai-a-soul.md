@@ -109,3 +109,7 @@ cover:
 - [OpenClaw团队有岗位没手艺？用了2个月的升级方案](/posts/openclaw-team-skill-upgrade-2-months/) — 灵魂建好之后，怎么让一整个AI团队都长出判断力
 - [结构化输出：省掉70%的人工整理时间](/posts/structured-output-save-70-percent-time/) — AI有了灵魂之后，让它的输出直接被程序处理
 - [别解释了，点亮「他」](/posts/stop-explaining-just-show-ai/) — 想让身边的人也用上AI？别讲道理，让他看见效果
+
+---
+
+AI 有了灵魂，还得会说话。[Wingman](https://wingman.zhixingshe.cc) 是帮你在聊天里找到表达节奏的工具，沟通场景专用。
