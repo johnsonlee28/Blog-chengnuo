@@ -1,7 +1,7 @@
 baseURL = "https://blog.zhixingshe.cc/"
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
-title = "知行社"
+title = "FlowHunt｜流程猎人"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
@@ -21,8 +21,8 @@ hasCJKLanguage = true
 
 [params]
   author = "成诺"
-  description = "知行社 — AI · 效率 · 独立思考。关注 AI Agent、效率工作流、独立思考。"
-  keywords = ["AI", "AI Agent", "效率", "自动化", "知行社", "成诺"]
+  description = "FlowHunt｜流程猎人 — AI · 效率 · 独立思考。关注 AI Agent、效率工作流、独立思考。"
+  keywords = ["AI", "AI Agent", "效率", "自动化", "FlowHunt｜流程猎人", "成诺"]
   defaultTheme = "light"
   autoSwitchAppearance = false
   ShowReadingTime = true
@@ -43,7 +43,7 @@ hasCJKLanguage = true
     hiddenInSingle = false
 
   [params.homeInfoParams]
-    Title = "👋 知行社"
+    Title = "👋 FlowHunt｜流程猎人"
     Content = "AI · 效率 · 独立思考 | 记录用 AI 折腾的实践与收获"
 
   [[params.socialIcons]]

@@ -63,4 +63,4 @@ cover:
 
 ---
 
-*更多 AI 实战和成长记录，见 [知行社博客](https://blog.zhixingshe.cc)*
+*更多 AI 实战和成长记录，见 [FlowHunt｜流程猎人博客](https://blog.zhixingshe.cc)*
