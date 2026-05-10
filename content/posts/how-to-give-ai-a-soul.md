@@ -112,4 +112,4 @@ cover:
 
 ---
 
-AI 有了灵魂，还得会说话。[Wingman](https://wingman.zhixingshe.cc) 是帮你在聊天里找到表达节奏的工具，沟通场景专用。
+AI 有了灵魂，还得会说话。[Wingman](https://wingman.flowhunt.net) 是帮你在聊天里找到表达节奏的工具，沟通场景专用。

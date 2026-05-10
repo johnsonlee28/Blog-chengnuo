@@ -35,7 +35,7 @@ cover:
 - 它告诉你现在的对话温度是热还是冷
 - 根据你的性格风格，给你几条可以发的回复
 
-这就是 [Wingman](https://wingman.zhixingshe.cc) 的起点。
+这就是 [Wingman](https://wingman.flowhunt.net) 的起点。
 
 ---
 
@@ -125,7 +125,7 @@ Cursor 直接给了技术方案：Next.js 前端 + FastAPI 后端 + 通义千问
 - [我以为派出去了，其实一个都没到——多 Agent 派单的正确姿势](/posts/openclaw-multi-agent-dispatch) — 多个 AI 协作时踩过的坑
 - [如何给 AI 建立一个灵魂](/posts/how-to-give-ai-a-soul/) — 为什么同一个问题，不同的 AI 助手给出完全不同的回答
 
-Wingman 现在可以直接用：[wingman.zhixingshe.cc](https://wingman.zhixingshe.cc)
+Wingman 现在可以直接用：[wingman.flowhunt.net](https://wingman.flowhunt.net)
 
 ---
 

@@ -94,7 +94,7 @@ cover:
 
 ## 免费试用
 
-👉 **[wingman.zhixingshe.cc](https://wingman.zhixingshe.cc)**
+👉 **[wingman.flowhunt.net](https://wingman.flowhunt.net)**
 
 功能全部免费，不需要注册（好奇这个工具是怎么做出来的？看[Vibe Coding 实战记录](/posts/vibe-coding-cursor-wingman/)），打开即用。
 

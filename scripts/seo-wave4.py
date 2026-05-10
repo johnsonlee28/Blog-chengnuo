@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SEO Wave 4 for blog.zhixingshe.cc
+SEO Wave 4 for blog.flowhunt.net
 1. Add keywords to all posts missing them
 2. Add lastmod to all posts
 3. Add contextual internal links to articles with 0 body links

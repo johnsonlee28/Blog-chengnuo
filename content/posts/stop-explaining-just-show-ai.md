@@ -60,4 +60,4 @@ cover:
 
 ---
 
-想让别人看见 AI 的效果，先给他们一个能用上的工具。[Wingman](https://wingman.zhixingshe.cc) 帮你在聊天里找到表达节奏，试一下就明白了。
+想让别人看见 AI 的效果，先给他们一个能用上的工具。[Wingman](https://wingman.flowhunt.net) 帮你在聊天里找到表达节奏，试一下就明白了。

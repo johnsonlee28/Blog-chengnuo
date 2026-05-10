@@ -59,4 +59,4 @@ AI生成的东西也一样。代码是结果，判断力才是你的。报告是
 
 ---
 
-路上的风景得自己走，但有些话得靠时机说对。[Wingman](https://wingman.zhixingshe.cc) 是 AI 聊天辅助工具，帮你在关键时刻找到那句话。
+路上的风景得自己走，但有些话得靠时机说对。[Wingman](https://wingman.flowhunt.net) 是 AI 聊天辅助工具，帮你在关键时刻找到那句话。
