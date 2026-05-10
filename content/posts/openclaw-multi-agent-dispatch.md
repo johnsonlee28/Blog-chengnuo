@@ -7,7 +7,7 @@ categories: [AI实战]
 tags: [OpenClaw, 多Agent协作, 实战]
 description: "连续四次派单全部失败，才发现命令用错了。一行命令让 AI 团队真正动起来。"
 keywords: ['OpenClaw多Agent', 'Agent派单', 'deliver命令', '多Agent协作', 'AI团队管理', 'OpenClaw派单']
-canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-multi-agent-dispatch/"
+canonicalURL: "https://blog.flowhunt.net/posts/openclaw-multi-agent-dispatch/"
 cover:
   image: "/images/covers/openclaw-multi-agent-dispatch.png"
   alt: "OpenClaw多Agent派单协作"

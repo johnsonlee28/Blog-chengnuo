@@ -8,7 +8,7 @@ categories: [产品实战]
 tags: [社交]
 description: "第一句话不会发？聊着聊着没话说？发'在吗'像催债，发'嗨'像机器人。第一句话的任务不是打招呼，是给对方一个想回你的理由——一个普通人总结的真实经验。"
 keywords: ['聊天没话说', '社交技巧', '聊天冷场', '第一句话怎么发', '暧昧期聊天', 'Wingman聊天助手']
-canonicalURL: "https://blog.zhixingshe.cc/posts/why-you-run-out-of-things-to-say/"
+canonicalURL: "https://blog.flowhunt.net/posts/why-you-run-out-of-things-to-say/"
 cover:
   image: "/images/covers/why-you-run-out-of-things-to-say.png"
   alt: "聊天冷场没话说的社交困境"

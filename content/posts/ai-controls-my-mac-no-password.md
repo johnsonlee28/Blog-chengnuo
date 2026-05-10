@@ -8,7 +8,7 @@ categories: [AI实战]
 tags: [AI, AI工具, 自动化, OpenClaw]
 description: "AI 用你的 Chrome、带你的登录态干活，不需要密码。踩了半天 IPv6 的坑，最后发现答案早就在那了。"
 keywords: ['AI控制电脑', 'OpenClaw远程操控', 'Chrome CDP', 'AI自动化', 'Tailscale远程', 'AI不需要密码', 'AI操作浏览器']
-canonicalURL: "https://blog.zhixingshe.cc/posts/ai-controls-my-mac-no-password/"
+canonicalURL: "https://blog.flowhunt.net/posts/ai-controls-my-mac-no-password/"
 cover:
   image: "/images/covers/ai-controls-my-mac-no-password.png"
   alt: "AI控制Mac电脑自动化办公"

@@ -7,7 +7,7 @@ categories: [AI实战]
 tags: [OpenClaw, AI Agent, 效率]
 description: "装完 Skill 为什么 AI 还是不用？因为你漏了最重要的一步：装完即写档。"
 keywords: ['OpenClaw Skill', 'TOOLS.md', 'AI工具管理', '装完即写档', 'OpenClaw配置', 'AI Agent技能']
-canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-skill-tools-md/"
+canonicalURL: "https://blog.flowhunt.net/posts/openclaw-skill-tools-md/"
 cover:
   image: "/images/covers/openclaw-skill-tools-md.png"
   alt: "OpenClaw Skill工具管理TOOLS.md"

@@ -5,7 +5,7 @@ draft: false
 description: "企业老板做AI写作系统，不要先买工具。先找一个高频、重复、有明确结果的流程，用 AI 接进去，再用数据复盘。"
 slug: "boss-ai-writing-system"
 tags: ["pSEO", "AI写作系统", "企业老板", "AI落地"]
-canonicalURL: "https://blog.zhixingshe.cc/pseo/boss-ai-writing-system/"
+canonicalURL: "https://blog.flowhunt.net/pseo/boss-ai-writing-system/"
 ---
 
 # 企业老板怎么做AI写作系统：从一个真实流程开始
@@ -72,8 +72,8 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/boss-ai-writing-system/"
 
 ## 相关实战文章
 
-- [不是记笔记，是让AI记住了你自己](https://blog.zhixingshe.cc/posts/ai-remembers-you/)：客户谈判时想反悔，AI替我翻出了那句关键承诺。把记忆交给AI之后，才发现丢掉的不是信息，是连续性。
-- [企业老板怎么做Agent自动化：从一个真实流程开始](https://blog.zhixingshe.cc/pseo/boss-agent-automation/)：企业老板做Agent自动化，不要先买工具。先找一个高频、重复、有明确结果的流程，用 AI 接进去，再用数据复盘。
+- [不是记笔记，是让AI记住了你自己](https://blog.flowhunt.net/posts/ai-remembers-you/)：客户谈判时想反悔，AI替我翻出了那句关键承诺。把记忆交给AI之后，才发现丢掉的不是信息，是连续性。
+- [企业老板怎么做Agent自动化：从一个真实流程开始](https://blog.flowhunt.net/pseo/boss-agent-automation/)：企业老板做Agent自动化，不要先买工具。先找一个高频、重复、有明确结果的流程，用 AI 接进去，再用数据复盘。
 
 ## 如果只做一件事
 
@@ -83,4 +83,4 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/boss-ai-writing-system/"
 
 然后问：这件事里，哪一步最适合先交给 AI？
 
-如果你想看更完整的实战拆解，可以先读这篇：[不是记笔记，是让AI记住了你自己](https://blog.zhixingshe.cc/posts/ai-remembers-you/)。
+如果你想看更完整的实战拆解，可以先读这篇：[不是记笔记，是让AI记住了你自己](https://blog.flowhunt.net/posts/ai-remembers-you/)。

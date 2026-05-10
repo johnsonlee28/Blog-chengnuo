@@ -8,7 +8,7 @@ categories: [AI实战]
 tags: [AI, AI工具, 知识管理, AI记忆, AI Agent, 效率]
 description: "客户谈判时想反悔，AI替我翻出了那句关键承诺。把记忆交给AI之后，才发现丢掉的不是信息，是连续性。"
 keywords: [AI记忆系统, Obsidian与AI, 第二大脑, AI笔记, 共享记忆, AI谈判, 知识管理实战]
-canonicalURL: "https://blog.zhixingshe.cc/posts/ai-remembers-you/"
+canonicalURL: "https://blog.flowhunt.net/posts/ai-remembers-you/"
 cover:
   image: "/images/covers/ai-remembers-you.png"
   alt: "AI记忆系统帮你记住重要信息"

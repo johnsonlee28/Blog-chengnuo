@@ -8,7 +8,7 @@ categories: [AI实战]
 tags: [AI, AI Agent, OpenClaw, 效率, AI落地, 普通人用AI]
 description: "一个FMCG渠道销售，用2个月时间搭了一支AI团队：情报官、写手、分析师、设计师。不是程序员，靠的是配置文件和踩坑经验。这篇是升级方案——发现了集体缺的那样东西。"
 keywords: ['OpenClaw团队', 'AI团队搭建', 'Agent升级', 'AI落地实战', '普通人搭AI团队', 'FMCG用AI']
-canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-team-skill-upgrade-2-months/"
+canonicalURL: "https://blog.flowhunt.net/posts/openclaw-team-skill-upgrade-2-months/"
 cover:
   image: "/images/covers/openclaw-team-skill-upgrade-2-months.png"
   alt: "OpenClaw AI团队两个月升级方案"

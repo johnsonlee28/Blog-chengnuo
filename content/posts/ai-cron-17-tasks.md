@@ -8,7 +8,7 @@ categories: [AI实战]
 tags: [AI, AI Agent, Hermes, 自动化, 效率, 定时任务]
 description: "早报、选题、复盘、安全巡检……这些事每天都要做，但不该每天都靠人推。把17个定时任务交给AI管，现在每天早上醒来，该来的都来了。"
 keywords: [AI定时任务, AI自动化, Hermes Agent, cron任务, AI早报, 个人AI系统, AI替你工作]
-canonicalURL: "https://blog.zhixingshe.cc/posts/ai-cron-17-tasks/"
+canonicalURL: "https://blog.flowhunt.net/posts/ai-cron-17-tasks/"
 cover:
   image: "/images/covers/ai-cron-17-tasks.png"
   alt: "17个AI定时任务自动运行"

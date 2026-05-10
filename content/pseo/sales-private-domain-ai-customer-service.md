@@ -5,7 +5,7 @@ draft: false
 description: "销售/私域负责人做AI客服，不要先买工具。先找一个高频、重复、有明确结果的流程，用 AI 接进去，再用数据复盘。"
 slug: "sales-private-domain-ai-customer-service"
 tags: ["pSEO", "AI客服", "销售/私域负责人", "AI落地"]
-canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-customer-service/"
+canonicalURL: "https://blog.flowhunt.net/pseo/sales-private-domain-ai-customer-service/"
 ---
 
 # 销售/私域负责人怎么做AI客服：从一个真实流程开始
@@ -72,8 +72,8 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-customer-
 
 ## 相关实战文章
 
-- [Vibe Coding 实战：我用 Cursor 做了一个 AI 情感僚机](https://blog.zhixingshe.cc/posts/vibe-coding-cursor-wingman/)：不会写代码，但用 Cursor 从零搭出了 Wingman——一个帮你分析聊天氛围、生成回复的 AI 工具。这是完整的实战过程。
-- [聊天不知道说什么？我用这个 AI 工具，把「冷场率」降到了个位数](https://blog.zhixingshe.cc/posts/wingman-ai-chat-assistant/)：Wingman AI 聊机：截图上传、分析对方画像、生成回复建议，帮你在暧昧期少走弯路。
+- [Vibe Coding 实战：我用 Cursor 做了一个 AI 情感僚机](https://blog.flowhunt.net/posts/vibe-coding-cursor-wingman/)：不会写代码，但用 Cursor 从零搭出了 Wingman——一个帮你分析聊天氛围、生成回复的 AI 工具。这是完整的实战过程。
+- [聊天不知道说什么？我用这个 AI 工具，把「冷场率」降到了个位数](https://blog.flowhunt.net/posts/wingman-ai-chat-assistant/)：Wingman AI 聊机：截图上传、分析对方画像、生成回复建议，帮你在暧昧期少走弯路。
 
 ## 如果只做一件事
 
@@ -83,4 +83,4 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-customer-
 
 然后问：这件事里，哪一步最适合先交给 AI？
 
-如果你想看更完整的实战拆解，可以先读这篇：[Vibe Coding 实战：我用 Cursor 做了一个 AI 情感僚机](https://blog.zhixingshe.cc/posts/vibe-coding-cursor-wingman/)。
+如果你想看更完整的实战拆解，可以先读这篇：[Vibe Coding 实战：我用 Cursor 做了一个 AI 情感僚机](https://blog.flowhunt.net/posts/vibe-coding-cursor-wingman/)。

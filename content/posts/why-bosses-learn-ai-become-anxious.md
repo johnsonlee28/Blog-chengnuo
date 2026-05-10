@@ -8,7 +8,7 @@ categories: [认知与思考]
 tags: [AI落地, AI工具, 认知]
 description: "花了半年时间学AI，结果反而更焦虑？问题不在于你学得不够多，而在于你学错了方向。这篇文章帮你找到真正的卡点。"
 keywords: [老板学AI, AI落地, 中小企业AI, AI信息焦虑, AI工具怎么用, AI判断力]
-canonicalURL: "https://blog.zhixingshe.cc/posts/why-bosses-learn-ai-become-anxious/"
+canonicalURL: "https://blog.flowhunt.net/posts/why-bosses-learn-ai-become-anxious/"
 cover:
   image: "/images/covers/why-bosses-learn-ai-become-anxious.png"
   alt: "老板学AI变成信息焦虑的原因分析"
@@ -114,7 +114,7 @@ AI 落地有没有效果，只有一个衡量标准：**钱或时间。**
 
 ---
 
-*更多 AI 落地实践内容，见 [FlowHunt｜流程猎人博客](https://blog.zhixingshe.cc)*
+*更多 AI 落地实践内容，见 [FlowHunt｜流程猎人博客](https://blog.flowhunt.net)*
 
 ---
 

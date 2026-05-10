@@ -7,7 +7,7 @@ categories: [AI实战]
 tags: [OpenClaw, AI记忆, AI Agent, 实战]
 description: "没装任何记忆插件，但AI三个月前说的话它还记得。后来才发现OpenClaw开箱就跑着三套记忆系统：LCM、Memory Search、MEMORY.md，零配置，一直在运行。"
 keywords: ['OpenClaw记忆', 'AI记忆三层', 'LCM记忆', 'Memory Search', 'MEMORY.md', 'AI长期记忆', 'OpenClaw实战']
-canonicalURL: "https://blog.zhixingshe.cc/posts/openclaw-memory-system-three-layers/"
+canonicalURL: "https://blog.flowhunt.net/posts/openclaw-memory-system-three-layers/"
 draft: false
 cover:
   image: "/images/covers/openclaw-memory-system-three-layers.png"

@@ -5,7 +5,7 @@ draft: false
 description: "销售/私域负责人做AI落地，不要先买工具。先找一个高频、重复、有明确结果的流程，用 AI 接进去，再用数据复盘。"
 slug: "sales-private-domain-ai-implementation"
 tags: ["pSEO", "AI落地", "销售/私域负责人", "AI落地"]
-canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-implementation/"
+canonicalURL: "https://blog.flowhunt.net/pseo/sales-private-domain-ai-implementation/"
 ---
 
 # 销售/私域负责人怎么做AI落地：从一个真实流程开始
@@ -72,8 +72,8 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-implement
 
 ## 相关实战文章
 
-- [把17个定时任务交给AI管，3个月没动过](https://blog.zhixingshe.cc/posts/ai-cron-17-tasks/)：早报、选题、复盘、安全巡检……这些事每天都要做，但不该每天都靠人推。把17个定时任务交给AI管，现在每天早上醒来，该来的都来了。
-- [为什么很多老板学AI，最后学成了信息焦虑](https://blog.zhixingshe.cc/posts/why-bosses-learn-ai-become-anxious/)：花了半年时间学AI，结果反而更焦虑？问题不在于你学得不够多，而在于你学错了方向。这篇文章帮你找到真正的卡点。
+- [把17个定时任务交给AI管，3个月没动过](https://blog.flowhunt.net/posts/ai-cron-17-tasks/)：早报、选题、复盘、安全巡检……这些事每天都要做，但不该每天都靠人推。把17个定时任务交给AI管，现在每天早上醒来，该来的都来了。
+- [为什么很多老板学AI，最后学成了信息焦虑](https://blog.flowhunt.net/posts/why-bosses-learn-ai-become-anxious/)：花了半年时间学AI，结果反而更焦虑？问题不在于你学得不够多，而在于你学错了方向。这篇文章帮你找到真正的卡点。
 
 ## 如果只做一件事
 
@@ -83,4 +83,4 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-implement
 
 然后问：这件事里，哪一步最适合先交给 AI？
 
-如果你想看更完整的实战拆解，可以先读这篇：[把17个定时任务交给AI管，3个月没动过](https://blog.zhixingshe.cc/posts/ai-cron-17-tasks/)。
+如果你想看更完整的实战拆解，可以先读这篇：[把17个定时任务交给AI管，3个月没动过](https://blog.flowhunt.net/posts/ai-cron-17-tasks/)。

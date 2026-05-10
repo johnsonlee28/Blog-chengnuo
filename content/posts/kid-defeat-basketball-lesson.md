@@ -8,7 +8,7 @@ categories: [认知与思考]
 tags: [生活, 认知, 成长, 实战]
 description: "陪孩子练篮球，被小学生连续拍108下完虐。左手不受控的笨拙感，暴露的不是学习能力退化，是被长年固有习惯坑了。什么时候开始都不晚。"
 keywords: [成长认知, 肌肉记忆, 亲子教育, 篮球练习, 终身学习, 逃避心理, 左手训练]
-canonicalURL: "https://blog.zhixingshe.cc/posts/kid-defeat-basketball-lesson/"
+canonicalURL: "https://blog.flowhunt.net/posts/kid-defeat-basketball-lesson/"
 cover:
   image: "/images/covers/kid-defeat-basketball-lesson.png"
   alt: "被孩子打败的篮球之夜"
@@ -63,4 +63,4 @@ cover:
 
 ---
 
-*更多 AI 实战和成长记录，见 [FlowHunt｜流程猎人博客](https://blog.zhixingshe.cc)*
+*更多 AI 实战和成长记录，见 [FlowHunt｜流程猎人博客](https://blog.flowhunt.net)*

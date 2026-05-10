@@ -8,7 +8,7 @@ categories: [认知与思考]
 tags: [AI, 认知, AI工具, 普通人用AI, Vibe Coding]
 description: "AI帮你写代码、写报告、导航出行，效率翻倍。但有一件事没人告诉你：用久了，那块肌肉会悄悄萎缩。"
 keywords: [AI让人变笨, AI工具副作用, 用进废退, 认知退化, AI时代思考力, Vibe Coding风险, AI依赖症]
-canonicalURL: "https://blog.zhixingshe.cc/posts/ai-making-people-dumb/"
+canonicalURL: "https://blog.flowhunt.net/posts/ai-making-people-dumb/"
 cover:
   image: "/images/covers/ai-making-people-dumb.png"
   alt: "AI工具让人变笨的认知退化风险"

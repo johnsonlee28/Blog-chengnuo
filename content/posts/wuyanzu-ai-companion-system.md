@@ -8,7 +8,7 @@ categories: [AI实战]
 tags: [AI, AI工具, AI Agent, 多Agent协作, 自动化, 实战]
 description: "给12岁儿子造了一套AI学长系统：飞书机器人+日报推送，退役特种兵人设，4个踩坑完整复盘。最难的不是代码，是人设。"
 keywords: [飞书机器人搭建, AI陪伴孩子, AI学习辅助, 亲子AI工具, Vibe Coding实战, 自动日报系统]
-canonicalURL: "https://blog.zhixingshe.cc/posts/wuyanzu-ai-companion-system/"
+canonicalURL: "https://blog.flowhunt.net/posts/wuyanzu-ai-companion-system/"
 cover:
   image: "/images/covers/wuyanzu-ai-companion-system.png"
   alt: "给孩子造AI学长：飞书机器人+日报系统完整搭建"

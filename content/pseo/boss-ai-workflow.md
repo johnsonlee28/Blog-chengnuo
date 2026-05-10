@@ -5,7 +5,7 @@ draft: false
 description: "企业老板做AI工作流，不要先买工具。先找一个高频、重复、有明确结果的流程，用 AI 接进去，再用数据复盘。"
 slug: "boss-ai-workflow"
 tags: ["pSEO", "AI工作流", "企业老板", "AI落地"]
-canonicalURL: "https://blog.zhixingshe.cc/pseo/boss-ai-workflow/"
+canonicalURL: "https://blog.flowhunt.net/pseo/boss-ai-workflow/"
 ---
 
 # 企业老板怎么做AI工作流：从一个真实流程开始
@@ -72,8 +72,8 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/boss-ai-workflow/"
 
 ## 相关实战文章
 
-- [把17个定时任务交给AI管，3个月没动过](https://blog.zhixingshe.cc/posts/ai-cron-17-tasks/)：早报、选题、复盘、安全巡检……这些事每天都要做，但不该每天都靠人推。把17个定时任务交给AI管，现在每天早上醒来，该来的都来了。
-- [我以为派出去了，其实一个都没到——OpenClaw 多 Agent 派单的正确姿势](https://blog.zhixingshe.cc/posts/openclaw-multi-agent-dispatch/)：连续四次派单全部失败，才发现命令用错了。一行命令让 AI 团队真正动起来。
+- [把17个定时任务交给AI管，3个月没动过](https://blog.flowhunt.net/posts/ai-cron-17-tasks/)：早报、选题、复盘、安全巡检……这些事每天都要做，但不该每天都靠人推。把17个定时任务交给AI管，现在每天早上醒来，该来的都来了。
+- [我以为派出去了，其实一个都没到——OpenClaw 多 Agent 派单的正确姿势](https://blog.flowhunt.net/posts/openclaw-multi-agent-dispatch/)：连续四次派单全部失败，才发现命令用错了。一行命令让 AI 团队真正动起来。
 
 ## 如果只做一件事
 
@@ -83,4 +83,4 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/boss-ai-workflow/"
 
 然后问：这件事里，哪一步最适合先交给 AI？
 
-如果你想看更完整的实战拆解，可以先读这篇：[把17个定时任务交给AI管，3个月没动过](https://blog.zhixingshe.cc/posts/ai-cron-17-tasks/)。
+如果你想看更完整的实战拆解，可以先读这篇：[把17个定时任务交给AI管，3个月没动过](https://blog.flowhunt.net/posts/ai-cron-17-tasks/)。

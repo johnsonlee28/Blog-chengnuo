@@ -8,7 +8,7 @@ categories: [AI实战]
 tags: [AI, AI记忆, AI Agent, Hermes, 效率, 自动化, 知识管理]
 description: "AI每次开新对话都失忆？不是模型的问题，是记忆架构没搭对。分享现在真实在跑的三层记忆系统：会话记忆、长期记忆、知识库，三层各司其职，AI才能真正记住你。"
 keywords: [AI记忆系统, AI第二大脑, Hermes记忆, Obsidian与AI, MEMORY.md, AI不失忆, 长期记忆]
-canonicalURL: "https://blog.zhixingshe.cc/posts/ai-memory-three-layers-hermes/"
+canonicalURL: "https://blog.flowhunt.net/posts/ai-memory-three-layers-hermes/"
 cover:
   image: "/images/covers/ai-memory-three-layers-hermes.png"
   alt: "AI三层记忆系统架构"

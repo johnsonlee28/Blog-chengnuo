@@ -8,7 +8,7 @@ categories: [AI实战]
 tags: [AI, OpenClaw, 效率, 自动化, 工程技巧, AI工具, 普通人用AI]
 description: "不是程序员，也能让AI输出结构化数据，省掉70%手工整理时间。一个做快消品渠道销售的人，怎么把开发者才会用的技巧变成日常工作流——含具体示例。"
 keywords: ['结构化输出', 'AI数据整理', 'JSON输出', 'AI效率提升', '非程序员结构化', 'AI自动化工作流']
-canonicalURL: "https://blog.zhixingshe.cc/posts/structured-output-save-70-percent-time/"
+canonicalURL: "https://blog.flowhunt.net/posts/structured-output-save-70-percent-time/"
 cover:
   image: "/images/covers/structured-output-save-70-percent-time.png"
   alt: "结构化输出省掉70%人工整理时间"

@@ -7,7 +7,7 @@ categories: [产品实战]
 tags: [AI工具, 社交]
 description: "Wingman AI 聊机：截图上传、分析对方画像、生成回复建议，帮你在暧昧期少走弯路。"
 keywords: ['Wingman AI', 'AI聊天助手', '聊天冷场解决', 'AI情感分析', '聊天回复建议', 'AI社交工具']
-canonicalURL: "https://blog.zhixingshe.cc/posts/wingman-ai-chat-assistant/"
+canonicalURL: "https://blog.flowhunt.net/posts/wingman-ai-chat-assistant/"
 draft: false
 cover:
   image: "/images/covers/wingman-ai-chat-assistant.png"
