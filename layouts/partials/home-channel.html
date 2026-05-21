@@ -1,0 +1,17 @@
+<article class="fh-channel">
+  <div class="fh-section-label">{{ .title }}</div>
+  <h3>{{ .desc }}</h3>
+  <div class="fh-post-list">
+    {{- range .pages }}
+      <a class="fh-post-card" href="{{ .RelPermalink }}">
+        <h4>{{ .Title }}</h4>
+        <p>{{ .Summary | plainify | truncate 88 }}</p>
+      </a>
+    {{- else }}
+      <a class="fh-post-card" href="/posts/">
+        <h4>文章整理中</h4>
+        <p>先去全部文章里继续阅读。</p>
+      </a>
+    {{- end }}
+  </div>
+</article>
