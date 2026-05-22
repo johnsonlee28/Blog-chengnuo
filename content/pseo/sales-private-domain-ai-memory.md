@@ -5,7 +5,7 @@ draft: false
 description: "销售/私域负责人做AI记忆系统，不要先买工具。先找一个高频、重复、有明确结果的流程，用 AI 接进去，再用数据复盘。"
 slug: "sales-private-domain-ai-memory"
 tags: ["pSEO", "AI记忆系统", "销售/私域负责人", "AI落地"]
-canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-memory/"
+canonicalURL: "https://blog.flowhunt.net/pseo/sales-private-domain-ai-memory/"
 ---
 
 # 销售/私域负责人怎么做AI记忆系统：从一个真实流程开始
@@ -72,9 +72,9 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-memory/"
 
 ## 相关实战文章
 
-- [AI记忆系统怎么建？用了这3层，它终于不再失忆了](https://blog.zhixingshe.cc/posts/ai-memory-three-layers-hermes/)：AI每次开新对话都失忆？不是模型的问题，是记忆架构没搭对。分享现在真实在跑的三层记忆系统：会话记忆、长期记忆、知识库，三层各司其职，AI才能真正记住你。
-- [不是记笔记，是让AI记住了你自己](https://blog.zhixingshe.cc/posts/ai-remembers-you/)：客户谈判时想反悔，AI替我翻出了那句关键承诺。把记忆交给AI之后，才发现丢掉的不是信息，是连续性。
-- [用了半年OpenClaw，才发现AI一直在偷偷记事](https://blog.zhixingshe.cc/posts/openclaw-memory-system-three-layers/)：没装任何记忆插件，但AI三个月前说的话它还记得。后来才发现OpenClaw开箱就跑着三套记忆系统：LCM、Memory Search、MEMORY.md，零配置，一直在运行。
+- [AI记忆系统怎么建？用了这3层，它终于不再失忆了](https://blog.flowhunt.net/posts/ai-memory-three-layers-hermes/)：AI每次开新对话都失忆？不是模型的问题，是记忆架构没搭对。分享现在真实在跑的三层记忆系统：会话记忆、长期记忆、知识库，三层各司其职，AI才能真正记住你。
+- [不是记笔记，是让AI记住了你自己](https://blog.flowhunt.net/posts/ai-remembers-you/)：客户谈判时想反悔，AI替我翻出了那句关键承诺。把记忆交给AI之后，才发现丢掉的不是信息，是连续性。
+- [用了半年OpenClaw，才发现AI一直在偷偷记事](https://blog.flowhunt.net/posts/openclaw-memory-system-three-layers/)：没装任何记忆插件，但AI三个月前说的话它还记得。后来才发现OpenClaw开箱就跑着三套记忆系统：LCM、Memory Search、MEMORY.md，零配置，一直在运行。
 
 ## 如果只做一件事
 
@@ -84,4 +84,4 @@ canonicalURL: "https://blog.zhixingshe.cc/pseo/sales-private-domain-ai-memory/"
 
 然后问：这件事里，哪一步最适合先交给 AI？
 
-如果你想看更完整的实战拆解，可以先读这篇：[AI记忆系统怎么建？用了这3层，它终于不再失忆了](https://blog.zhixingshe.cc/posts/ai-memory-three-layers-hermes/)。
+如果你想看更完整的实战拆解，可以先读这篇：[AI记忆系统怎么建？用了这3层，它终于不再失忆了](https://blog.flowhunt.net/posts/ai-memory-three-layers-hermes/)。

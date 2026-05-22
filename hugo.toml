@@ -21,8 +21,8 @@ hasCJKLanguage = true
 
 [params]
   author = "成诺"
-  description = "FlowHunt｜流程猎人 — AI · 效率 · 独立思考。关注 AI Agent、效率工作流、独立思考。"
-  keywords = ["AI", "AI Agent", "效率", "自动化", "FlowHunt｜流程猎人", "成诺"]
+  description = "FlowHunt｜流程猎人：记录 AI Agent、自动化工作流、个人生产力系统、市场风险观察和真实产品实验。"
+  keywords = ["FlowHunt", "流程猎人", "AI Agent", "AI工作流", "自动化", "个人生产力", "美股风险雷达", "BTC风险温度", "成诺"]
   defaultTheme = "light"
   autoSwitchAppearance = false
   ShowReadingTime = true
