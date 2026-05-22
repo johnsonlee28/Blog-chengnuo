@@ -1,6 +1,11 @@
-<article class="fh-channel">
-  <div class="fh-section-label">{{ .title }}</div>
-  <h3>{{ .desc }}</h3>
+<article class="fh-channel {{ .class }}">
+  <div class="fh-channel-mark">
+    <span class="fh-channel-emoji">{{ .icon }}</span>
+    <div>
+      <div class="fh-section-label">{{ .title }}</div>
+      <h3>{{ .desc }}</h3>
+    </div>
+  </div>
   <div class="fh-post-list">
     {{- range .pages }}
       <a class="fh-post-card" href="{{ .RelPermalink }}">

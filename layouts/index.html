@@ -8,12 +8,15 @@
 
 <style>
 .main{max-width:1160px}
-.fh-home{max-width:1120px;margin:0 auto;padding:28px 16px 64px}
-.fh-home *{min-width:0}
+.fh-home{max-width:1120px;margin:0 auto;padding:28px 16px 64px;box-sizing:border-box}
+.fh-home *{min-width:0;box-sizing:border-box}
 .fh-hero{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(320px,.78fr);gap:18px;align-items:stretch;margin:10px 0 22px}
 .fh-hero-main,.fh-featured,.fh-tool,.fh-channel,.fh-post-card{border:1px solid var(--border);background:var(--entry);border-radius:18px;box-shadow:0 24px 70px rgba(15,23,42,.06)}
-.fh-hero-main{padding:34px;min-height:340px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,rgba(20,184,166,.12),rgba(59,130,246,.08) 44%,rgba(255,255,255,.88))}
+.fh-hero-main{position:relative;padding:34px;min-height:340px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,#dcfce7,#dbeafe 44%,#fff7ed);overflow:hidden}
+.fh-hero-main::after{content:"";position:absolute;right:-52px;bottom:-52px;width:190px;height:190px;border-radius:999px;background:rgba(20,184,166,.12)}
+.fh-hero-main>*{position:relative;z-index:1}
 .dark .fh-hero-main{background:linear-gradient(135deg,rgba(20,184,166,.14),rgba(59,130,246,.10) 44%,rgba(15,23,42,.70))}
+.fh-emoji{display:inline-grid;place-items:center;width:36px;height:36px;margin-bottom:14px;border-radius:14px;background:rgba(255,255,255,.64);box-shadow:0 12px 34px rgba(15,23,42,.08);font-size:20px}
 .fh-kicker{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#0f766e;font-weight:800;margin-bottom:14px}
 .dark .fh-kicker{color:#67e8f9}
 .fh-title{font-size:48px;line-height:1.04;margin:0 0 14px;letter-spacing:0;font-weight:900;color:var(--primary)}
@@ -22,7 +25,8 @@
 .fh-button{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:9px 14px;border:1px solid var(--border);border-radius:999px;color:var(--primary);font-size:14px;text-decoration:none;background:rgba(255,255,255,.45)}
 .fh-button.primary{border-color:rgba(20,184,166,.45);background:rgba(20,184,166,.12);color:#0f766e;font-weight:700}
 .dark .fh-button{background:rgba(15,23,42,.52)}.dark .fh-button.primary{color:#67e8f9}
-.fh-featured{padding:24px;display:flex;flex-direction:column;justify-content:space-between;gap:18px}
+.fh-featured{padding:24px;display:flex;flex-direction:column;justify-content:space-between;gap:18px;background:linear-gradient(160deg,#fff,#fef3c7 120%)}
+.dark .fh-featured{background:linear-gradient(160deg,rgba(15,23,42,.88),rgba(113,63,18,.34))}
 .fh-section-label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--secondary);font-weight:800}
 .fh-featured h2{font-size:28px;line-height:1.18;margin:8px 0 12px;letter-spacing:0;overflow-wrap:anywhere}
 .fh-featured p,.fh-post-card p,.fh-tool p{color:var(--secondary);line-height:1.68;margin:0;overflow-wrap:anywhere}
@@ -31,26 +35,43 @@
 .fh-band{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0 28px}
 .fh-tool{padding:18px;text-decoration:none;color:inherit;min-height:148px;transition:transform .16s ease,border-color .16s ease}
 .fh-tool:hover{transform:translateY(-2px);border-color:rgba(20,184,166,.45)}
+.fh-tool.stock{background:#ecfeff;border-color:#a5f3fc}
+.fh-tool.btc{background:#fff7ed;border-color:#fed7aa}
+.fh-tool.wingman{background:#eef2ff;border-color:#c7d2fe}
+.fh-tool.detector{background:#f0fdf4;border-color:#bbf7d0}
+.dark .fh-tool.stock,.dark .fh-channel.product{background:rgba(8,145,178,.14);border-color:rgba(103,232,249,.22)}
+.dark .fh-tool.btc,.dark .fh-channel.market{background:rgba(234,88,12,.13);border-color:rgba(251,146,60,.22)}
+.dark .fh-tool.wingman,.dark .fh-channel.ai{background:rgba(79,70,229,.16);border-color:rgba(165,180,252,.24)}
+.dark .fh-tool.detector{background:rgba(22,163,74,.14);border-color:rgba(134,239,172,.22)}
 .fh-tool b{display:block;font-size:16px;margin:10px 0 7px;color:var(--primary)}
-.fh-tool-icon{width:34px;height:34px;border-radius:12px;display:grid;place-items:center;background:rgba(20,184,166,.10);color:#0f766e;font-weight:900}
+.fh-tool-icon{width:38px;height:38px;border-radius:14px;display:grid;place-items:center;background:rgba(255,255,255,.72);color:#0f766e;font-size:20px;font-weight:900;box-shadow:0 10px 24px rgba(15,23,42,.08)}
 .dark .fh-tool-icon{color:#67e8f9}
 .fh-block-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:34px 0 14px;border-bottom:1px solid var(--border);padding-bottom:10px}
 .fh-block-head h2{font-size:22px;margin:0}.fh-block-head p{margin:0;color:var(--secondary);font-size:13px}
 .fh-channels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .fh-channel{padding:20px}
+.fh-channel.ai{background:#eef2ff;border-color:#c7d2fe}
+.fh-channel.product{background:#ecfeff;border-color:#a5f3fc}
+.fh-channel.market{background:#fff7ed;border-color:#fed7aa}
+.fh-channel.thinking{background:#fdf2f8;border-color:#fbcfe8}
+.dark .fh-channel.thinking{background:rgba(219,39,119,.13);border-color:rgba(249,168,212,.22)}
+.fh-channel-mark{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.fh-channel-emoji{display:grid;place-items:center;width:34px;height:34px;border-radius:13px;background:rgba(255,255,255,.70);font-size:18px;box-shadow:0 10px 24px rgba(15,23,42,.06)}
 .fh-channel h3{font-size:18px;margin:0 0 12px}.fh-post-list{display:grid;gap:10px}
-.fh-post-card{display:block;padding:15px;text-decoration:none;color:inherit;border-radius:14px;box-shadow:none;background:rgba(148,163,184,.05)}
+.fh-post-card{display:block;padding:15px;text-decoration:none;color:inherit;border-radius:14px;box-shadow:none;background:rgba(255,255,255,.68)}
+.dark .fh-post-card{background:rgba(15,23,42,.46)}
 .fh-post-card h4{font-size:16px;line-height:1.35;margin:0 0 6px}.fh-post-card p{font-size:13px}
 .fh-post-card:hover{border-color:rgba(20,184,166,.42)}
 .fh-latest{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 @media(max-width:900px){.fh-hero,.fh-channels{grid-template-columns:1fr}.fh-band,.fh-latest{grid-template-columns:repeat(2,minmax(0,1fr))}.fh-title{font-size:38px}.fh-hero-main{min-height:auto;padding:26px}}
-@media(max-width:560px){.main{max-width:100%;overflow:hidden}.fh-home{max-width:100%;padding:18px 0 52px;overflow:hidden}.fh-band,.fh-latest{grid-template-columns:1fr}.fh-title{font-size:32px;overflow-wrap:anywhere}.fh-kicker{font-size:11px;overflow-wrap:anywhere}.fh-subtitle{font-size:16px}.fh-hero-main,.fh-featured,.fh-tool,.fh-channel,.fh-post-card{border-radius:14px;padding:18px;overflow-wrap:anywhere}.fh-block-head{align-items:flex-start;flex-direction:column}}
+@media(max-width:560px){.main{max-width:100%;padding:0 14px!important;overflow:hidden}.fh-home{width:100%;max-width:100%;padding:18px 0 52px;overflow:hidden}.fh-hero,.fh-band,.fh-channels,.fh-latest{width:100%;grid-template-columns:1fr}.fh-title{font-size:30px;overflow-wrap:anywhere}.fh-kicker{font-size:11px;overflow-wrap:anywhere}.fh-subtitle{font-size:16px}.fh-featured h2{font-size:24px;word-break:break-word}.fh-hero-main,.fh-featured,.fh-tool,.fh-channel,.fh-post-card{width:100%;max-width:100%;border-radius:14px;padding:18px;overflow-wrap:anywhere}.fh-block-head{align-items:flex-start;flex-direction:column}}
 </style>
 
 <div class="fh-home">
   <section class="fh-hero" aria-label="FlowHunt 首页">
     <div class="fh-hero-main">
       <div>
+        <span class="fh-emoji">🧭</span>
         <div class="fh-kicker">AI workflow · product log · market risk</div>
         <h1 class="fh-title">FlowHunt｜流程猎人</h1>
         <p class="fh-subtitle">记录 AI 工具、自动化工作流、市场风险观察，以及普通人怎样把 AI 变成真正可运行的系统。</p>
@@ -64,6 +85,7 @@
     {{- with $featured }}
     <article class="fh-featured">
       <div>
+        <span class="fh-emoji">🔥</span>
         <div class="fh-section-label">Featured essay</div>
         <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
         <p>{{ .Summary | plainify | truncate 150 }}</p>
@@ -80,10 +102,10 @@
   </section>
 
   <section class="fh-band" aria-label="FlowHunt 工具矩阵">
-    <a class="fh-tool" href="https://stock.flowhunt.net/stock/"><span class="fh-tool-icon">S</span><b>Stock FlowHunt</b><p>买 AI 热门股前，先看整体风险温度和公开证据链。</p></a>
-    <a class="fh-tool" href="https://btc.flowhunt.net/"><span class="fh-tool-icon">₿</span><b>BTC FlowHunt</b><p>用链上、宏观和情绪指标观察比特币周期。</p></a>
-    <a class="fh-tool" href="https://wingman.flowhunt.net/"><span class="fh-tool-icon">W</span><b>Wingman</b><p>把沟通场景变成可复用的 AI 辅助流程。</p></a>
-    <a class="fh-tool" href="https://aidetector.life/"><span class="fh-tool-icon">AI</span><b>AI Detector</b><p>快速检测文本是否具有 AI 生成痕迹。</p></a>
+    <a class="fh-tool stock" href="https://stock.flowhunt.net/stock/"><span class="fh-tool-icon">📈</span><b>Stock FlowHunt</b><p>买 AI 热门股前，先看整体风险温度和公开证据链。</p></a>
+    <a class="fh-tool btc" href="https://btc.flowhunt.net/"><span class="fh-tool-icon">₿</span><b>BTC FlowHunt</b><p>用链上、宏观和情绪指标观察比特币周期。</p></a>
+    <a class="fh-tool wingman" href="https://wingman.flowhunt.net/"><span class="fh-tool-icon">💬</span><b>Wingman</b><p>把沟通场景变成可复用的 AI 辅助流程。</p></a>
+    <a class="fh-tool detector" href="https://aidetector.life/"><span class="fh-tool-icon">🔍</span><b>AI Detector</b><p>快速检测文本是否具有 AI 生成痕迹。</p></a>
   </section>
 
   <div class="fh-block-head">
@@ -92,10 +114,10 @@
   </div>
 
   <section class="fh-channels">
-    {{ partial "home-channel.html" (dict "title" "AI 工作流" "desc" "Agent、记忆、自动化和真实可运行的系统。" "pages" $aiPosts) }}
-    {{ partial "home-channel.html" (dict "title" "FlowHunt 产品日志" "desc" "把想法做成工具时的判断、取舍和复盘。" "pages" $productPosts) }}
-    {{ partial "home-channel.html" (dict "title" "市场与风险雷达" "desc" "不喊涨跌，只整理公开证据和风险温度。" "pages" $marketPosts) }}
-    {{ partial "home-channel.html" (dict "title" "思考与成长" "desc" "关于学习、关系、判断力和普通人的 AI 实践。" "pages" $thinkingPosts) }}
+    {{ partial "home-channel.html" (dict "title" "AI 工作流" "desc" "Agent、记忆、自动化和真实可运行的系统。" "pages" $aiPosts "icon" "🤖" "class" "ai") }}
+    {{ partial "home-channel.html" (dict "title" "FlowHunt 产品日志" "desc" "把想法做成工具时的判断、取舍和复盘。" "pages" $productPosts "icon" "🛠️" "class" "product") }}
+    {{ partial "home-channel.html" (dict "title" "市场与风险雷达" "desc" "不喊涨跌，只整理公开证据和风险温度。" "pages" $marketPosts "icon" "📊" "class" "market") }}
+    {{ partial "home-channel.html" (dict "title" "思考与成长" "desc" "关于学习、关系、判断力和普通人的 AI 实践。" "pages" $thinkingPosts "icon" "🌱" "class" "thinking") }}
   </section>
 
   <div class="fh-block-head">
