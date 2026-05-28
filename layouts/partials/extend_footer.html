@@ -50,8 +50,49 @@
     <a href="https://btc.flowhunt.net" target="_blank" rel="noopener" title="BTC投资模型 — 比特币价格追踪">
       ₿ BTC模型 <span style="font-size:0.72rem;color:#9ca3af">比特币追踪</span>
     </a>
-    <a href="https://stock.flowhunt.net/stock/" target="_blank" rel="noopener" title="Stock FlowHunt — 美股风险温度雷达">
+    <a href="https://stock.flowhunt.net/stock" target="_blank" rel="noopener" title="Stock FlowHunt — 美股风险温度雷达">
       📈 Stock FlowHunt <span style="font-size:0.72rem;color:#9ca3af">风险温度</span>
     </a>
   </div>
 </div>
+
+<style>
+.flowhunt-pseo-cta{max-width:860px;margin:2rem auto 0;padding:1.25rem 1.35rem;border:1px solid #bfdbfe;border-radius:18px;background:linear-gradient(135deg,#eff6ff 0%,#ffffff 58%,#f8fafc 100%)}
+.flowhunt-pseo-cta__eyebrow{margin:0 0 .4rem;color:#2563eb;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.flowhunt-pseo-cta h2{margin:.1rem 0 .55rem;font-size:1.25rem;line-height:1.35}.flowhunt-pseo-cta p{margin:.35rem 0;color:#475569;line-height:1.75}.flowhunt-pseo-cta__actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:.9rem}.flowhunt-pseo-cta__actions a{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:.68rem 1rem;font-weight:750;text-decoration:none}.flowhunt-pseo-cta__primary{background:#2563eb;color:#fff!important;border:1px solid #2563eb}.flowhunt-pseo-cta__secondary{background:#fff;color:#1e293b!important;border:1px solid #cbd5e1}
+</style>
+<section class="flowhunt-pseo-cta" data-seo-conversion="flowhunt_pseo_cta" data-page-slug="{{ .RelPermalink }}">
+  <p class="flowhunt-pseo-cta__eyebrow">把文章里的流程变成可执行系统</p>
+  <h2>如果你也在做企业 AI 落地，先从一个固定流程开始。</h2>
+  <p>这类页面不是泛泛讲 AI，而是把销售、运营、知识管理、写作和客服里的重复动作拆出来。需要的话，可以从 Wingman 或一次流程梳理开始。</p>
+  <div class="flowhunt-pseo-cta__actions">
+    <a class="flowhunt-pseo-cta__primary" data-conversion-event="flowhunt_consult_interest" href="/about/?utm_source=pseo&utm_medium=cta&utm_campaign=flowhunt_pseo&utm_content={{ replaceRE "^/|/$" "" .RelPermalink }}">聊聊企业 AI 流程梳理</a>
+    <a class="flowhunt-pseo-cta__secondary" data-conversion-event="wingman_interest" href="https://wingman.flowhunt.net?utm_source=blog&utm_medium=cta&utm_campaign=flowhunt_pseo&utm_content={{ replaceRE "^/|/$" "" .RelPermalink }}">看看 Wingman</a>
+  </div>
+</section>
+<script>
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>
+(function(){
+  function sendConversion(name, props){
+    props = props || {};
+    props.page = props.page || location.pathname;
+    if (window.va) window.va('event', name, props);
+    if (window.gtag) window.gtag('event', name, props);
+    if (window.plausible) window.plausible(name, {props: props});
+    if (window.umami) window.umami.track(name, props);
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event: name, conversion: props});
+  }
+  document.addEventListener('click', function(e){
+    var el = e.target.closest('[data-conversion-event]');
+    if (!el) return;
+    sendConversion(el.getAttribute('data-conversion-event'), {
+      href: el.getAttribute('href'),
+      cta_page: location.pathname,
+      cta_text: (el.textContent || '').trim().slice(0,80)
+    });
+  }, true);
+})();
+</script>
